@@ -9,46 +9,46 @@
 
 *Used modules:<br>
 
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';<br>
+import { BrowserModule } from '@angular/platform-browser';<br>
 
-import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { ValueComponent } from './value/value.component';
-import { HttpClientModule } from '@angular/common/http';
-import { NavComponent } from './nav/nav.component';
-import { CityComponent } from './city/city.component';
-import { CityDetailComponent } from './city/city-detail/city-detail.component';
-import { RightBannerComponent } from './right-banner/right-banner.component';
-import { CityDetailPlaceComponent } from './city/city-detail/city-detail-place/city-detail-place.component';
-import { FooterComponent } from './footer/footer.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ReactiveFormsModule } from '@angular/forms';
-import { FormService } from './services/form.service';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
-import { TooltipModule } from 'ng2-tooltip-directive';
-import { Footer2Component } from './footer2/footer2.component';
-import { Footer3Component } from './footer3/footer3.component';
-import {MatCardModule} from '@angular/material/card'; 
-import {MatButtonModule} from '@angular/material/button'; 
-import {MatProgressBarModule} from '@angular/material/progress-bar'; 
-import {MatDividerModule} from '@angular/material/divider';
-import { AboutComponent } from './about/about.component'; 
-import {MatTabsModule} from '@angular/material/tabs'; 
-import {MatTableModule} from '@angular/material/table'; 
-import {MatPaginatorModule} from '@angular/material/paginator';
-import { Ng2SearchPipeModule } from 'ng2-search-filter';
-import { OrderModule } from 'ngx-order-pipe';
-import { NgxPaginationModule } from 'ngx-pagination';
-import {MatStepperModule} from '@angular/material/stepper'; 
-import {MatFormFieldModule} from '@angular/material/form-field'; 
-import {MatInputModule} from '@angular/material/input'; 
-import { Ng2CompleterModule } from 'ng2-completer';
-import { FormsModule } from '@angular/forms';
-import { FilterPipe } from './city/filter.pipe';
-import { PersonComponent } from './person/person.component';
-import { PersonDetailComponent } from './person/person-detail/person-detail.component';
-import { PersonFilterPipe } from './person/person-filter.pipe';
+import { RouterModule } from '@angular/router';<br>
+import { AppRoutingModule } from './app-routing.module';<br>
+import { AppComponent } from './app.component';<br>
+import { ValueComponent } from './value/value.component';<br>
+import { HttpClientModule } from '@angular/common/http';<br>
+import { NavComponent } from './nav/nav.component';<br>
+import { CityComponent } from './city/city.component';<br>
+import { CityDetailComponent } from './city/city-detail/city-detail.component';<br>
+import { RightBannerComponent } from './right-banner/right-banner.component';<br>
+import { CityDetailPlaceComponent } from './city/city-detail/city-detail-place/city-detail-place.component';<br>
+import { FooterComponent } from './footer/footer.component';<br>
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';<br>
+import { ReactiveFormsModule } from '@angular/forms';<br>
+import { FormService } from './services/form.service';<br>
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';<br>
+import { ToastrModule } from 'ngx-toastr';<br>
+import { TooltipModule } from 'ng2-tooltip-directive';<br>
+import { Footer2Component } from './footer2/footer2.component';<br>
+import { Footer3Component } from './footer3/footer3.component';<br>
+import {MatCardModule} from '@angular/material/card'; <br>
+import {MatButtonModule} from '@angular/material/button'; <br>
+import {MatProgressBarModule} from '@angular/material/progress-bar'; <br>
+import {MatDividerModule} from '@angular/material/divider';<br>
+import { AboutComponent } from './about/about.component'; <br>
+import {MatTabsModule} from '@angular/material/tabs'; <br>
+import {MatTableModule} from '@angular/material/table'; <br>
+import {MatPaginatorModule} from '@angular/material/paginator';<br>
+import { Ng2SearchPipeModule } from 'ng2-search-filter';<br>
+import { OrderModule } from 'ngx-order-pipe';<br>
+import { NgxPaginationModule } from 'ngx-pagination';<br>
+import {MatStepperModule} from '@angular/material/stepper'; <br>
+import {MatFormFieldModule} from '@angular/material/form-field';<br> 
+import {MatInputModule} from '@angular/material/input'; <br>
+import { Ng2CompleterModule } from 'ng2-completer';<br>
+import { FormsModule } from '@angular/forms';<br>
+import { FilterPipe } from './city/filter.pipe';<br>
+import { PersonComponent } from './person/person.component';<br>
+import { PersonDetailComponent } from './person/person-detail/person-detail.component';<br>
+import { PersonFilterPipe } from './person/person-filter.pipe';<br>
 
