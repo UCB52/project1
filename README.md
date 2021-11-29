@@ -1,13 +1,13 @@
 # project1
-*My first project with angular which is %95 dynamic.
-*"city" component includes wide "city" objects.There are many cities from Turkey.
-*"person" component also includes wide "person" objects.There are many important people from history.
-*"about" component also describes me.İt is 3 parts:
--1st part is about my skills.
--2nd part is about my certificates.
--3rd part includes a stepper for my CV within a form.
+*My first project with angular which is %95 dynamic.<br>
+*"city" component includes wide "city" objects.There are many cities from Turkey.<br>
+*"person" component also includes wide "person" objects.There are many important people from history.<br>
+*"about" component also describes me.İt is 3 parts:<br>
+-1st part is about my skills.<br>
+-2nd part is about my certificates.<br>
+-3rd part includes a stepper for my CV within a form.<br>
 
-*Used modules:
+*Used modules:<br>
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
