@@ -1,8 +1,8 @@
-# project1
+# presentationProject1
 *My first project with angular which is %95 dynamic.<br>
 *"city" component includes wide "city" objects.There are many cities from Turkey.<br>
 *"person" component also includes wide "person" objects.There are many important people from history.<br>
-*"about" component also describes me.İt is 3 parts:<br>
+*"about" component describes me.İt is 3 parts:<br>
 -1st part is about my skills.<br>
 -2nd part is about my certificates.<br>
 -3rd part includes a stepper for my CV within a form.<br>
