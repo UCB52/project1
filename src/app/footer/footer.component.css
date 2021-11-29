@@ -1,0 +1,14 @@
+textarea{
+    resize: none;
+    transition:all .3s ease-in-out;
+}
+.light-blue-backdrop {
+    background-color: grey;
+  }    
+.toast-info:hover {
+    background-color: rgba(0, 0, 253,0.7);
+  }
+  .fontSize{
+    font-size: 12px;
+    font-weight: 800;
+  }

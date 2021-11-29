@@ -1,0 +1,55 @@
+<div class="container mx-auto">
+    <div class="row mx-auto">
+        <div style="background-color:rgba(236, 236, 236, 0.6); max-height: 1600px;" class="col-5 col-md-4 border border-secondary px-2 pt-2">
+            <div class="row">
+                <img src="{{person.photos[0]}}" class="img-fluid rounded-3" alt="{{person.name}}">
+            </div>
+            <div *ngFor="let card of person.cardDescriptions; let i=index" class="row justify-content-center">
+                <div *ngIf="card.tag" class="col-5">
+                    <p class="fs-8">{{card.tag}}</p>
+                </div>
+                <div [ngClass]="{'text-center': i==1||i==0,'col-7':i!==0&&i!==1,'fs-7':i==0}" *ngIf="card.explain" class="col-7">
+                    <div *ngIf="i!==1" class="row">
+                        <p class="my-1 fs-8" *ngFor="let x of card.explain">{{x}}</p>                    
+                    </div>
+                    <div *ngIf="i==1" class="row pt-0 mt-0 mb-2 px-0 mx-0 gx-0">
+                        <p class="my-1 px-0 bg-secondary fs-8 rounded-3" *ngFor="let x of card.explain">{{x}}</p>                    
+                    </div>
+                </div>
+                <hr style="width: 60%" *ngIf="i%6==0">
+            </div>
+        </div>
+        <div class="col-7 col-md-8">
+            <div class="row">
+                <ngb-accordion (click)="scrollTo()" activeIds="erkensaltanati">
+                    <ngb-panel *ngFor="let content of person.contents; index as i; last as last" id="{{content.panelId}}" title="{{content.contentHeader}}">
+                      <ng-template ngbPanelContent>
+                              <div class="row">
+                                  <div [ngClass]="{'col-md-7':content.imgUrl}" class="col- order-2 order-md-1 mt-2 mt-md-0">
+                                    <p class="fs-8" *ngIf="!last">{{content.contentMain[0]}}</p>
+                                    <p class="fs-8" *ngIf="!last">{{content.contentMain[1]}}</p>
+                                    <div *ngIf="last" class="row">
+                                        <ul>
+                                            <li *ngFor="let x of content.contentMain">
+                                                <a target="_blank" href="{{x}}">{{x}}</a>
+                                            </li>                                            
+                                        </ul>                                        
+                                    </div>                                    
+                                  </div>
+                                  <div [ngClass]="{'col-md-5':content.imgUrl}" *ngIf="content.imgUrl" class="col- order-1 text-center order-md-2">
+                                    <img style="height: 250px;width: 100%;" id="img1" src="{{content.imgUrl}}" class="img-fluid rounded-3" height="250px">
+                                    <div class="row mt-2 d-flex">                                        
+                                        <a class="ml-1 text-secondary d-inline" href="{{content.imgUrl}}" target="_blank"><small class="d-inline">{{content.imgDesc}}</small><i class="fas fa-external-link-alt d-inline"></i></a>
+                                    </div>
+                                  </div>                              
+                              </div>
+                              <div *ngFor="let x of content.contentMain; let i=index" class="row">
+                                <p class="fs-8" *ngIf="i!==0&&i!==1">{{x}}</p>
+                               </div>                    
+                      </ng-template>
+                    </ngb-panel>
+                  </ngb-accordion>
+            </div>
+        </div>
+    </div>
+</div>

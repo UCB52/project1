@@ -1,0 +1,29 @@
+<nav id="nav1" class="navbar navbar-expand-lg navbar-dark bg-primary rounded-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/city"><i class="fab fa-angular"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" data-bs-target="#navbarColor01" (click)="reset()" routerLink="city" routerLinkActive="active" class="nav-link active" href="#">Şehirler
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" data-bs-target="#navbarColor01" (click)="reset()" routerLink="/person" routerLinkActive="active" class="nav-link" href="#">Kişiler</a>
+                </li>
+                <li class="nav-item">
+                    <a data-bs-toggle="collapse" data-bs-target="#navbarColor01" (click)="reset()" routerLink="/about" routerLinkActive="active" class="nav-link" href="#">Hakkımda</a>
+                </li>                
+            </ul>
+            <form [formGroup]="form1" class="d-flex align-items-center">                
+                <input [(ngModel)]="filterText" (keyup)="change()" (focusout)="resetF()" formControlName="filterText" class="form-control me-sm-2" type="text" placeholder="Kişi,şehir..." required><span></span>
+                <button routerLink="/city" class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>

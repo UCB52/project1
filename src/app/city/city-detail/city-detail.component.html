@@ -1,0 +1,24 @@
+<main class="container-sm px-0 pt-md-2">
+  <div class="row">
+    <h2 class="text-center mt-2">AKTİVİTELER</h2>        
+  </div>
+  <div class="row">
+    <p class="text-end"><em><a id="a1" href="#">Uğurcan Baş</a> tarafından yazıldı</em></p>  
+      <p class="text-end"><em><a href="#">Firmalara ulaşabileceğiniz Linkler<i class="fas fa-link fs-3 ps-2"></i></a></em></p>
+    <p class="text-end"><em>{{number1}} gün önce editlendi</em></p>
+  </div>
+  <div class="row">    
+    <div *ngIf="city.id==1||city.id==2" class="col-">            
+      <h2 *ngIf="city.description" class="mt-3 p-3 text-center fw-bolder">Ön Bilgi</h2>
+      <div>
+        <ol>
+          <li *ngFor="let x of city.description"><p id="p1">{{x}}</p></li>
+        </ol>
+      </div>
+      <p><em class="text-center">Not: Son zamanlardaki küresel sağlık ve güvenlik sorunları nedeniyle bazı işletmeler geçici olarak kapatılmış olabilir.</em></p>            
+    </div>        
+  </div>
+  <div class="row gx-0">
+    <app-city-detail-place></app-city-detail-place>
+  </div>
+</main>

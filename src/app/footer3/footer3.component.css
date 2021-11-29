@@ -1,0 +1,16 @@
+.iconSize{
+    transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  animation-name: icons;
+  animation-duration: .9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes icons{
+    from{}
+    to{transform: rotateY(180deg);}
+}

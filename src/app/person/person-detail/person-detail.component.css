@@ -1,0 +1,31 @@
+.example-card {
+    max-width: 400px;
+  }
+::ng-deep .accordion .card{
+  background-color:rgba(236, 236, 236, 1);  
+}
+::ng-deep .accordion .card .card-header{
+  background-color:#EFFBFD !important;  
+}
+::ng-deep .accordion .card .card-header button{
+  color: #007BFF;
+}
+.fs-7{
+  font-size: 11px;
+}
+.fs-8{
+  font-size: 12.5px;
+  font-weight: 400;
+}
+img{
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+img:hover{
+  box-shadow: 1px -1px 2px 2px lightgray;
+  transform:scale(1.01,1.01);
+  cursor: pointer;
+}

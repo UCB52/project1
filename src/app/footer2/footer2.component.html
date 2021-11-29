@@ -1,0 +1,42 @@
+<div class="container h-100">
+    <div class="row h-25 text-center d-flex align-items-end">
+        <h5>UCB~Project</h5>
+    </div>
+    <div class="row row-cols-auto h-75 d-flex justify-content-around align-items-center text-center">  
+        <div class="col">
+            <a (click)="goNav()" routerLink="/city" class="nav-link p-0 text-muted">Anasayfa</a>
+        </div>
+        <div class="col">
+            <a (click)="goNav()" routerLink="/about" class="nav-link p-0 text-muted">Hakkımda</a>
+        </div>
+        <div class="col">
+            <a (click)="open(content1)" href="javascript:void(0)" class="nav-link p-0 text-muted">Yasal ve Gizlilik</a>
+        </div>
+    </div>    
+</div>
+<!--Modal-->
+<ng-template #content1 let-c="close" let-d="dismiss">
+    <div class="modal-header bg-primary pb-0">
+      <h3 class="modal-title ml-auto" id="modal-basic-title">Önemli Maddeler:</h3>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <h3>VERİ SORUMLUSU</h3>
+      <p>Veri Sorumlusu sıfatıyla hareket eden Şirket, KVKK'nın izin verdiği ölçüde ve ticari veya iş ilişkilerimiz kapsamında, açık rızanın teminin gerektiği hallerde ise İlgili Kişi’nin rızasına da başvurarak kişisel verilerinizi işleyebilmekte, kaydedebilmekte, muhafaza edebilmekte, yeniden düzenleyebilmekte, yurtiçi veya yurtdışına aktarım sağlayabilmektedir.</p>
+      <h3> KİŞİSEL VERİ TOPLAMA YÖNTEMLERİ VE HUKUKİ DAYANAĞI</h3>
+      <p>Kişisel verileri, bizlere sağladığınız için, üçüncü kişiler o verileri bize sağladığı için toplayabilir veya edinebiliriz (örneğin müşterilerimiz bize çalışanları, müşterileri veya kişisel verisini topladıkları diğer İlgili Kişilerle ilgili, İlgili Kişi'nin diğer referanslarıyla ilgili bilgi verebilir, kamu kurumları veya sözleşmesel yükümlülüklerimizi yerine getirmek için destek aldığımız üçüncü taraf servis sağlayıcılar vs. bu verileri sağlayabilir); veya bizim Wi-Fi ağımıza bağlandığınız için, internet sitemiz ya da sosyal medya hesaplarımız kanalından, ya da kamuya açık olduğu için toplayabilir veya edinebiliriz.Yasal gerekliliklerin yerine getirilmesi, sözleşmeden doğan yükümlülüklerimizin ifası, Şirketimizin meşru menfaatleri nedeniyle, sizlerden talep ettiğimiz veya doğrudan sizlerin bizler ile paylaşmayı tercih ettiğinizi kişisel verilerinizi, otomatik veya otomatik olmayan yöntemler ve kaynaklar ile toplayabilir ve yine yasal olan süreler ile saklayabiliriz:</p>      
+      <h3>İŞLENEN KİŞİSEL VERİLER</h3>
+      <p>Şirketimiz tarafından toplanan ve işlenen kişisel veriler, sizin Şirketimizle olan ticari ve hukuki ilişki uyarınca değişkenlik gösterebilecektir.Bununla beraber örnek olarak aşağıdaki veri kategorizasyonunu belirtebiliriz: kimlik bilgileriniz, iletişim bilgileriniz, finansal bilgileriniz, özel nitelikli kişisel veriler, eğitim ve görsel veriler, aile yakınlarınızın verileri gibi kişisel verileriniz tarafımızca işlenmelerini gerektiren amaç çerçevesinde ve bu amaç ile bağlantılı, sınırlı, ölçülü ve gerektiğinde güncel olacak şekilde ve 6698 Sayılı Kanun’un 5 inci ve 6 ncı maddelerinde belirtilen şartlara uygun olarak işlenebilmektedir.</p>
+      <h3>KİŞİSEL VERİLERİN İŞLENME AMAÇLARI</h3>
+      <P>Şirket, kişisel verileri yasal sürelere bağlı kalarak aşağıdaki amaçlar için işleyebilir:</P>
+    </div>
+    <div class="modal-footer ">
+        <div class="container-xxl d-flex justify-content-between ">
+            <button (click)="toast1()" class="btn btn-sm rounded-3 btn-outline-primary" (click)="c('Save click')">Okudum,anladım,kabul ediyorum.</button>
+      <button class="btn btn-sm rounded-3 btn-outline-danger" (click)="c('Save click')">Kabul etmiyorum.</button>
+        </div>      
+    </div>
+  </ng-template>
+  <!--Modal-->

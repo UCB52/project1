@@ -1,0 +1,111 @@
+    <div class="container px-0 mx-auto">
+        <mat-tab-group class="text-center" mat-align-tabs="center" mat-stretch-tabs class="example-stretched-tabs" [backgroundColor]="background1" [color]="color1">
+            <mat-tab class="bg-info" label="Skills">
+              <ng-template matTabContent>
+                <div class="d-flex justify-content-center align-items-center">
+                  <pagination-controls class="mt-2 my-pagination" [directionLinks]="directionLinks" [autoHide]="autoHide" [responsive]="responsive" [maxSize]="5" [nextLabel]="nextLabel" [previousLabel]="previousLabel" id="certificatePagination1" (pageChange) = "p = $event"></pagination-controls>
+                </div>
+                  <div class="container">
+                    <div class="row mt-3">                      
+                        <table class="table-responsive-xxl table-sm table-striped table-hover table-bordered">
+                            <thead>
+                            <tr class="text-center"> 
+                              <th style="cursor:pointer" (click)="sort('name')" scope="col">Name<i class="fas fa-sort icon1"></i></th>
+                              <th scope="col">Level</th>
+                              <th scope="col">Favorite</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr [ngStyle]="{'fontWeight': i%2 ? '600':'900'}" *ngFor="let skill of skills | orderBy : data: reverse | paginate:{itemsPerPage:5,currentPage:p,id:'certificatePagination1',totalItems:total1};let i=index">
+                              <td >{{skill.name}}</td>
+                              <td><ngb-rating [readonly]="true" [max]=5 [rate]="skill.level">
+                                <ng-template let-fill="fill" let-index="index">
+                                  <span class="star" [class.filled]="fill === 100" [class.bad]="index < 2">&#9733;</span>
+                                </ng-template>
+                              </ngb-rating>
+                            </td>
+                              <td><ngb-rating [readonly]="true" [max]=5 [rate]="skill.favorite">
+                                <ng-template let-fill="fill" let-index="index">
+                                  <span class="star" [class.filled]="fill === 100" [class.bad]="index < 2">&#9733;</span>
+                                </ng-template>
+                              </ngb-rating></td>                              
+                            </tr>
+                            </tbody>
+                          </table>                          
+                    </div>
+                  </div>                
+              </ng-template>
+            </mat-tab>
+            <mat-tab label="Certificates">
+              <ng-template matTabContent>
+                <div class="d-flex justify-content-center align-items-center">
+                  <pagination-controls class="mt-2 my-pagination"  [directionLinks]="directionLinks" [autoHide]="autoHide" [responsive]="responsive" [maxSize]="5" [nextLabel]="nextLabel" [previousLabel]="previousLabel" id="certificatePagination2" (pageChange) = "p = $event"></pagination-controls>
+                </div>
+                <table class="table-responsive-xxl table-sm table-striped table-hover table-bordered">
+                  <thead>
+                  <tr class="text-center"> 
+                    <th style="width:25%;cursor:pointer" (click)="sort2('name')" scope="col">Name<i class="fas fa-sort icon1"></i></th>
+                    <th style="width:25%" scope="col">Company</th>
+                    <th style="width:5%" scope="col">Date</th>
+                    <th style="width:25%" scope="col">URL/Identifier</th>
+                    <th style="width:10%" scope="col">Valid Until</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr [ngStyle]="{'fontWeight': i%2 ? '600':'900'}" *ngFor="let certificate of certificates | orderBy : data: reverse | paginate:{itemsPerPage:5,currentPage:p,id:'certificatePagination2',totalItems:total2}; let i=index">
+                    <td >{{certificate.name}}</td>
+                    <td >{{certificate.company}}<a class="text-end" target="_blank" href="{{certificate.website}}"><i class="fas fa-external-link-alt text-end"></i></a></td>
+                    <td >{{certificate.date}}</td>                    
+                    <td >{{certificate.url}}</td>
+                    <td >{{certificate.noExpire}}</td>                   
+                  </tr>
+                  </tbody>
+                </table>
+              </ng-template>
+            </mat-tab>
+            <mat-tab label="CV">
+              <ng-template matTabContent>                                                            
+                <mat-stepper
+                  class="example-stepper"
+                  [orientation]="(stepperOrientation | async)!">
+                  <mat-step [stepControl]="firstFormGroup" label="Fill out your name" errorMessage="Name is required.">
+                    <form [formGroup]="firstFormGroup">
+                      <mat-form-field appearance="fill">
+                        <mat-label>Your name</mat-label>
+                        <input matInput placeholder="Fill your name" formControlName="name" required>
+                      </mat-form-field>
+                      <div>
+                        <button mat-button matStepperNext>Next</button>
+                      </div>
+                    </form>
+                  </mat-step>
+                  <mat-step [stepControl]="secondFormGroup" label="Fill your email" errorMessage="Email is required.">
+                    <form [formGroup]="secondFormGroup">
+                      <mat-form-field appearance="fill">
+                        <mat-label>Your email</mat-label>
+                        <input matInput formControlName="email" placeholder="xxx@xxx"
+                               required>
+                      </mat-form-field>
+                      <div>
+                        <button mat-button matStepperPrevious>Back</button>
+                        <button mat-button matStepperNext>Next</button>
+                      </div>
+                    </form>
+                  </mat-step>               
+                  <mat-step >
+                    <ng-template matStepLabel>CV</ng-template>
+                    <div class="d-flex flex-column text-center justify-content-center align-items-center">                                            
+                      <p [ngStyle]="{'color':'red','fontWeight':700,'fontSize':'16px'}" *ngIf="firstFormGroup.invalid||secondFormGroup.invalid"><i class="fas fa-exclamation-triangle"></i>Please give correct information</p>
+                    <a (click)="onSubmit()" [target]="cvTarget" [href]="cvHref">CV [doc|pdf]<i class="fas fa-download "></i></a>
+                    </div>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                    </div>
+                  </mat-step>
+                </mat-stepper>
+                
+              </ng-template>
+            </mat-tab>           
+          </mat-tab-group>
+          
+  </div>

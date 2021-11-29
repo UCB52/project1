@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div *ngFor="let person of people | personFilter:filterText2" class="col">
+          <div class="text-end">
+            <button routerLink="/personDetail/{{person.id}}" class="btn btn-outline-secondary mt-4 mb-1 ">{{person.name}}</button>
+          </div>
+            <div class="card shadow-sm mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-5 p-0 d-flex align-items-center">
+                    <img style="height: 100%;max-height:250px;min-height:200px" src="{{person.mainPhoto}}" class="img-fluid rounded-end mx-auto" alt="...">
+                  </div>
+                  <div class="col-md-7 px-0">
+                    <div class="card-body px-3 text-start">
+                      <h4 routerLink="/personDetail/{{person.id}}" class="card-title"><a href="#">{{person.heading}}</a></h4>
+                      <p routerLink="/personDetail/{{person.id}}" class="card-text"><a href="#">{{person.descriptions}}</a></p>
+                      <p class="card-text"><small class="text-muted">{{person.date}}</small></p>
+                    </div>
+                    <div class="p-0 text-center">
+                      <div class="btn-group">
+                        <button routerLink="/personDetail/{{person.id}}" type="button"
+                            class="btn btn-sm btn-outline-secondary">Oku</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Paylaş</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>        
+    </div>
+</div>

@@ -1,0 +1,40 @@
+img.card-img {
+  transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+}
+img.card-img:hover {
+  box-shadow: 1px -1px 2px 2px lightgray;
+  transform:scale(1.01,1.01);
+  cursor: pointer;
+}
+p.card-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+p {
+  -moz-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;  
+  width: 100%;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 11px;
+}
+h4{
+    font-size: 13.6px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h4:hover{
+    text-decoration: underline;
+  cursor: pointer;
+}

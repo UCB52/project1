@@ -1,0 +1,53 @@
+img.img-fluid {
+    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;    
+  }
+  img.img-fluid:hover {
+    box-shadow: 1px -1px 2px 2px lightgray;
+    transform:scale(1.01,1.01);
+    cursor: pointer;
+    filter: grayscale(0);
+  }
+p {
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;  
+    width: 100%;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 11px;
+  }
+  h4{
+      font-size: 13.6px;
+      white-space:nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  h4:hover{
+      text-decoration: underline;
+    cursor: pointer;
+  }
+  a{
+    color: black;
+    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+  }
+  a:hover{
+    color: blue;
+  }
+  @media only screen and (min-width:720px){
+   img.img-fluid{
+    filter: grayscale(100%);
+   } 
+  }

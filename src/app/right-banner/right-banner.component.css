@@ -1,0 +1,54 @@
+h5{
+    text-overflow: ellipsis;    
+}
+img {
+    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  img:hover {
+    box-shadow: 1px -1px 2px 2px lightgray;
+    transform: scale(1.02, 1.02);
+    -ms-transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    -moz-transform: scale(1.02, 1.02);
+    -o-transform: scale(1.02, 1.02);
+    cursor: pointer;
+  }
+  .example-card {
+    max-width: 400px;
+  }
+  p {
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;  
+    width: 100%;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+  }
+  p:hover{
+    text-decoration: underline;
+  } 
+  .example-card{
+    background-color:#caf0f8;
+    background-color: rgba(202, 240, 248,0.3);
+    color: black;
+}
+mat-card-title:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+button{
+  transition:all .3s ease-in-out;
+}
+button:hover{
+  transform:scale(1.1,1.1);
+}

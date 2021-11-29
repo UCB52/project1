@@ -1,0 +1,25 @@
+<div class="container px-0">
+  <ngb-accordion [closeOthers]="true" activeIds="Ayasofya Camii" type="dark">
+    <ngb-panel (click)="scrollTo()" *ngFor="let place of city.places" id="{{place.id}}" title="{{place.id}}">
+      <ng-template ngbPanelContent>
+        <div class="container">
+          <div class="row">
+            <img id="scrollTo" class="img-thumbnail rounded-3" src="{{place.placePhotos[0]}}" alt="{{place.id}}">
+          </div>
+          <p><em class="text-center">{{place.id}}</em></p>
+          <div class="row">
+            <div class="col-11 mx-auto">
+              <p class="text-center" *ngFor="let x of place.descriptions; let i=index">{{x}}
+                <img class="img-thumbnail rounded-3" *ngIf="i==1" src="{{place.placePhotos[1]}}" alt="place.id">
+                <img class="img-thumbnail rounded-3" *ngIf="i==3" src="{{place.placePhotos[2]}}" alt="place.id">
+                <p>
+                <p *ngIf="place.adress" class="text-start">Adress: <em><a href="javascript:void(0)">{{place.adress}}</a></em>              
+                </p>              
+                <p *ngIf="place.website" class="text-start">Website: <em><a target="_blank" href="{{place.website}}">{{place.website}}</a></em></p>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>

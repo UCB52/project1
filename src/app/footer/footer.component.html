@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="row text-center">
+    <h4>İletmek istediğiniz bir şey var mı?</h4>
+  </div>
+  <div class="row text-center">
+    <p>Tavsiyelere açığım.Kesinlikle hepsini okuyorum.</p>
+  </div>
+  <div class="row  text-center">
+    <form [formGroup]="form1" class="text-center">                    
+      <div class="d-flex align-items-center justify-content-center w-100 gap-2">
+        <div class="form-floating">
+          <input formControlName="fullName" type="text" class="form-control" id="input1" name="input1" placeholder=":)">
+          <label [ngStyle]="{'fontSize':'13px'}" for="input1">Ad Soyad</label>
+        </div>            
+        <div class="form-floating justify-content-center d-flex text-center">              
+          <textarea tooltip="Min-10 Max-100" [options]="myOptions" formControlName="comment" type="text" placeholder="Fikir ve Görüşleriniz..." required id="input2" name="input2"
+            class="form-control"></textarea>
+        </div>
+        <!--Modal-->
+        <ng-template #content let-c="close" let-d="dismiss">
+          <div class="modal-header bg-primary">
+            <h4 [ngStyle]="{'color':'black'}" class="modal-title" id="modal-basic-title">Teşekkürler!</h4>
+            <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Göndermek istediğiniz metni onaylıyor musunuz?</p>
+          </div>
+          <div class="modal-footer">
+            <button (click)="onSubmit()" class="btn btn-outline-dark" (click)="c('Save click')">Gönder</button>
+          </div>
+        </ng-template>
+        <!--Modal-->
+        <button (click)="open(content)" class="btn btn-outline-primary btn-sm" type="button">İletin</button>
+      </div>
+    </form>
+  </div>        
+</div>
