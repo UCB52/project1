@@ -1,0 +1,1488 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus Zenbook",
+      "imageUrl": "https://images.unsplash.com/photo-1550234646-8d03f6e034fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 25,
+      "categoryId": 2,
+      "description": "A4 Tech",
+      "imageUrl": "https://images.unsplash.com/photo-1550234646-8d03f6e034fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=580&q=80"
+    },
+    {
+      "name": "Lenovo K6 Note",
+      "description": "Lenovo marka telefon ürünü",
+      "imageUrl": "https://www.technopat.net/db/wp-content/uploads/2016/10/Lenovo-K6-Note-600x473.jpg",
+      "price": "1000",
+      "categoryId": "2",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Elektronik"
+    }
+  ],
+  "values": [
+    {
+      "id": 1,
+      "name": "Uğurcan Baş"
+    },
+    {
+      "id": 2,
+      "name": "Birol Baş"
+    },
+    {
+      "id": 3,
+      "name": "Aliye Baş"
+    },
+    {
+      "id": 4,
+      "name": "Emirhan Baş"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "passwordHash": "",
+      "passwordSalt": "",
+      "username": ""
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "heading": "İstanbul",
+      "description": [
+        "Yüzyıllar boyunca imparatorlukların imrendiği, hem Avrupa'yı hem de Asya'yı kapsayan İstanbul, dünyanın en büyük metropollerinden biridir.",
+        "MÖ 1000 civarında kurulan Bizans kolonisi büyüyerek Bizans İmparatorluğu'nun büyük başkenti Konstantinopolis'e dönüştü ve şehri Osmanlıların fethinden sonra imparatorluklarının kalbi olarak görkemli yerini korudu.",
+        "Şehir (Türkiye Cumhuriyeti'nin kuruluşundan sonra resmi olarak İstanbul olarak yeniden adlandırılmıştır) uzun ve şanlı tarihinin görkemli kalıntılarıyla özgürce dağılmıştır ve buradaki turistik yerler, anıttan bıkmış ziyaretçileri bile etkileyecektir.",
+        "Dört büyük yapının (Ayasofya Camii, Topkapı Sarayı, Sultanahmet Camii ve Kapalı Çarşı) yanı sıra diğer turistik yerleri keşfetmek için yeterli zaman ayırın.",
+        "Ziyaret edilecek en popüler ve en iyi yerlerin çoğu, Sultanahmet'in eski şehir bölgesinde veya yakınında olmasına rağmen, şehrin uzak noktalarında yapılacak göz kamaştırıcı bir dizi başka şey var.",
+        "İstanbul'da yapılacak en iyi turistik yerler ve yapılacak şeyler listemizle seyahatinizi planlayın."
+      ],
+      "name": "İstanbul",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/3/3c/YDA-Center-03.jpg",
+      "publicId": "",
+      "places": [
+        {
+          "id": "Ayasofya-Camii",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1603564925693-a05225909708?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+            "https://images.unsplash.com/photo-1621163846326-e4764aadb396?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1621164872633-f23a1e74f87b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          ],
+          "descriptions": [
+            "İlk olarak 15. yüzyılda Fatih Sultan Mehmet tarafından yaptırılan bu görkemli saray Boğaz'ın kıyısında Osmanlı İmparatorluğu'nun padişahlarının yaşadığı ve hüküm sürdüğü yerdi.",
+            "Muazzam kompleks, tamamı siperlerle çevrili duvarlar ve kulelerle çevrili, gösterişli bir şekilde dekore edilmiş odaları birbirine bağlayan karmaşık el boyaması çinilerle kaplı gösterişli avluları ile İslam sanatının göz kamaştırıcı bir görüntüsüdür.",
+            "Buradaki pek çok olaydan en popüler olanı Harem kompleksidir (hükümdarın birçok cariyesinin ve çocuğunun günlerini geçireceği yer); engin saray mutfaklarından geçebileceğiniz ve İmparatorluk Konsey Odası'nın göz kamaştırıcı iç kısmına hayranlıkla bakabileceğiniz İkinci Avlu; ve padişahın özel odalarını içeren Üçüncü Avlu.",
+            "Üçüncü Avlu ayrıca Kutsal Saklama Odasında Hz. Muhammed'in kalıntılarının etkileyici bir koleksiyonunu sergiliyor ve gözlerinizi sulandıracak ışıltılı altın nesneler ve değerli taşlardan oluşan bir önbellekle karşılaşacağınız İmparatorluk Hazinesi'ne ev sahipliği yapıyor.",
+            "Topkapı Sarayı'nı tam olarak görmek için en az yarım gün ayırmanız gerekiyor."
+          ],
+          "adress": "Aya Sofya Meydanı, Sultanahmet",
+          "website": "https://muze.gen.tr/muze-detay/ayasofya"
+        },
+        {
+          "id": "Topkapı-Sarayı",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1596679619494-27aaf90d6413?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1597147402121-880be86d66cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1597147873356-ab36fc52dd2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          ],
+          "descriptions": [
+            "İlk olarak 15. yüzyılda Fatih Sultan Mehmet tarafından yaptırılan bu görkemli saray, Boğaz'ın kıyısında Osmanlı İmparatorluğu'nun padişahlarının yaşadığı ve hüküm sürdüğü yerdi.",
+            "Muazzam kompleks, tamamı siperlerle çevrili duvarlar ve kulelerle çevrili, gösterişli bir şekilde dekore edilmiş odaları birbirine bağlayan karmaşık el boyaması çinilerle kaplı gösterişli avluları ile İslam sanatının göz kamaştırıcı bir görüntüsüdür.",
+            "Buradaki pek çok önemli olaydan en popüleri Harem kompleksidir (hükümdarın birçok cariyesinin ve çocuğunun günlerini geçireceği yer); engin saray mutfaklarından geçebileceğiniz ve İmparatorluk Konsey Odası'nın göz kamaştırıcı iç kısmına hayranlıkla bakabileceğiniz İkinci Avlu; ve padişahın özel odalarını içeren Üçüncü Avlu.",
+            "Üçüncü Avlu ayrıca Kutsal Saklama Odasında Hz. Muhammed'in kalıntılarının etkileyici bir koleksiyonunu sergiliyor ve gözlerinizi sulandıracak ışıltılı altın nesneler ve değerli taşlardan oluşan bir önbellekle karşılaşacağınız İmparatorluk Hazinesi'ne ev sahipliği yapıyor.",
+            "Topkapı Sarayı'nı tam olarak görmek için en az yarım gün ayırmanız gerekiyor."
+          ],
+          "adress": "Babihümayun Caddesi, Gülhane Park",
+          "website": "https://www.millisaraylar.gov.tr/saraylar/topkapi-sarayi"
+        },
+        {
+          "id": "Sultan-Ahmet-Camii",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1621165756448-f762a804d1fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1593544648982-cf4bbfb8fc38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1586871818843-dbce27eaf410?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
+          ],
+          "descriptions": [
+            "Sultan I. Ahmet'in başkentine en büyük mimari armağanı, bugün yaygın olarak Sultanahmet Camii olarak bilinen bu güzel camiydi.",
+            "1609 ve 1616 yılları arasında inşa edilen cami, tamamlandığında altı minaresi (Mekke Ulu Camii ile aynı numara) olduğu için Müslüman dünyasında bir öfkeye neden oldu. Yedinci bir minare sonunda muhalefeti durdurmak için Mekke'ye hediye edildi.",
+            "Cami lakabını on binlerce İznik çinisinden oluşan iç dekorasyonundan almaktadır.",
+            "İç mekanın tüm mekansal ve renk etkisi, camiyi Osmanlı mimarisinin en güzel başarılarından biri haline getiriyor.",
+            "İstanbul gezisinin büyük bir gezi keyfi, Sultanahmet Camii ve Ayasofya arasına sıkıştırılmış bahçeler arasında dolaşıp düello kubbelerini ikiz ihtişamıyla deneyimliyor.",
+            "Ezan sesi yankılanırken ekstra ambiyans için alacakaranlıkta gelin.",
+            "Sultanahmet Camii'nin hemen arkasında Arasta Çarşısı; Buradaki el sanatları dükkanları yüksek kaliteli hediyelik eşyalar sattığı için bir alışveriş durağı için harika bir yer.",
+            "Arasta Çarşısı ile cami arasına sıkışmış Büyük Saray Mozaik Müzesi'ni görmek için göz atmak istemeseniz bile buraya gidin.",
+            "Bu küçük müze, 1950'lerde ortaya çıkarılan 250 metrekarelik mozaik döşeme parçasını burada sergiliyor. Mükemmel bilgi panelleri, mozaik zeminin kurtarılmasını ve ardından kurtarılmasını açıklar."
+          ],
+          "adress": "Sultan Ahmet, Fatih/İstanbul",
+          "website": "http://www.sultanahmetcamii.org/"
+        },
+        {
+          "id": "Yerebatan-Sarnıçı",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1621165398797-91bbc2e2acc9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1621165399246-52590f2504e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1621165398199-3eaccda1fc6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+          ],
+          "descriptions": [
+            "Yerebatan Sarnıcı, İstanbul'un en şaşırtıcı turistik mekanlarından biridir.",
+            "12 sıra halinde 336 sütunla desteklenen bu devasa, saray benzeri yeraltı salonu, bir zamanlar Bizans imparatorları için imparatorluk su kaynağını depolardı.",
+            "Proje Büyük Konstantin tarafından başlatılmış, ancak 6. yüzyılda İmparator Justinian tarafından bitirilmiştir.",
+            "İnşaatta kullanılan sütunların çoğu, daha önceki klasik yapılardan geri dönüştürülmüş ve dekoratif oymalara sahiptir.",
+            "Bunlardan en ünlüsü kuzeybatı köşesinde Medusa taşları olarak bilinen ve Medusa başı oymalarıyla bilinen sütun kaideleridir.",
+            "Buradaki bir ziyaret, güzelce aydınlatılan sütunlar ve etrafınızdaki yumuşak, sabit su damlaması ile çok atmosferik."
+          ],
+          "adress": "Yerebatan Caddesi, Sultanahmet",
+          "website": " https://www.yerebatan.com/en"
+        },
+        {
+          "id": "Hipodrom",
+          "placePhotos": [
+            "https://arkeofili.com/wp-content/uploads/2019/01/hipodrom3.jpg",
+            "https://arkeofili.com/wp-content/uploads/2019/01/hipodrom6.jpg"
+          ],
+          "descriptions": [
+            "Antik Hipodrom, CE 203'te Septimius Severus tarafından başlatıldı ve CE 330'da Büyük Konstantin tarafından tamamlandı.",
+            "Burası Bizans kamusal yaşamının merkezi ve muhteşem oyunların ve araba yarışlarının yanı sıra hizip çatışmalarının da merkeziydi.",
+            "Bugün Hipodrom'un güney cephesindeki galeri duvarlarının küçük bir bölümü dışında görülecek pek bir yeri kalmamış olsa da, günümüzde alanın üzerinde yer alan At Meydanı çeşitli anıtlara ev sahipliği yapıyor.",
+            "Kuzeybatı tarafında 1898 yılında Alman İmparatoru II. William tarafından Osmanlı padişahına hediye edilen bir çeşme bulunmaktadır.",
+            "Daha sonra, güneybatı yönünde üç antik anıt bulunur: 20 metre yüksekliğinde bir Mısır dikilitaşı (Heliopolis'ten); Konstantin tarafından Delphi'den buraya getirilen Yılanlı Sütun; ve 1204'te 4. Haçlı Seferi askerleri tarafından çalınana kadar orijinal olarak altın kaplı bronz kaplamayla kaplanmış bir taş dikilitaş."
+          ],
+          "adress": "Sultan Ahmet Parkı, Fatih/İstanbul",
+          "website": " https://www.yerebatan.com/en"
+        },
+        {
+          "id": "İstanbul-Arkeoloji-Müzesi",
+          "placePhotos": [
+            "https://muze.gov.tr/s3/SectionPicture/SP_6dd4959b-f23a-4663-83c8-57a239d1d2d6.jpg",
+            "https://muze.gov.tr/s3/SectionPicture/SP_22128b5c-751e-485b-bd7d-6522c835f1fe.jpg",
+            "https://www.planetware.com/photos-large/TR/turkey-istanbul-archaeology-museum.jpg"
+          ],
+          "descriptions": [
+            "Topkapı Sarayı'ndan bir atlama, atlama ve atlama mesafesinde olan ve sonrasında kolayca ziyaret edilen bu önemli müze kompleksi, hem Türkiye'den hem de Ortadoğu'dan bu bölgenin engin tarihini kapsayan bir dizi eseri bir araya getiriyor.",
+            "Müze kompleksinde her biri görülmeye değer üç ayrı bölüm bulunuyor.",
+            "Antik Doğu Müzesi, Ortadoğu'nun İslam öncesi sanatına ve mirasına odaklanan bir koleksiyon sergiliyor.",
+            "Ana Arkeoloji Müzesi, Osmanlı mimarı Osman Hamdi Bey tarafından ortaya çıkarılan Lübnan, Sayda'dan ünlü lahitler de dahil olmak üzere heykel ve mezarlara ev sahipliği yapıyor. Ayrıca burada, şehrin engin ve destansı tarihini görselleştirmenize yardımcı olan Çağlar Arası İstanbul sergi odasını da bulacaksınız.",
+            "Müzenin üçüncü binası, çok çeşitli seramik sanatına ev sahipliği yapan Fatih Sultan Mehmet tarafından yaptırılan Çinili Köşk'tür."
+          ],
+          "adress": "Alemdar Caddesi,Osman Hamdi Bey Yokuşu,Gülhane ",
+          "website": "https://muze.gov.tr/muze-detay?SectionId=IAR01&DistId=IAR"
+        },
+        {
+          "id": "Kapalı-Çarşı",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1574586597013-29bd92dc1617?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
+            "https://images.unsplash.com/photo-1579792389177-ae25b2c86d4b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+            "https://images.unsplash.com/photo-1607430867636-9cc02f915656?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80"
+          ],
+          "descriptions": [
+            "Birçok ziyaretçi için İstanbul'u gezmek, müzeler ve anıtsal cazibe merkezleri kadar alışveriş yapmakla da ilgilidir ve Kapalıçarşı herkesin geldiği yerdir.",
+            "Nuruosmanıye Camii ile Beyazıt Camii arasında, kalın duvarlarla çevrili, şehrin tamamını kaplayan bu devasa kapalı çarşı, temelde dünyanın ilk alışveriş merkezidir.",
+            "Beyazıt Camii (1498-1505'te inşa edilmiştir) Theodosius I's Forum'un yerini alır ve Ayasofya'dan ilham alan bir mimariye sahiptir.",
+            "Çarşıya giriş, aklınıza gelebilecek her türlü Türk hediyelik eşya ve el sanatını satan dükkânlar ve tezgahların sıralandığı, tonozlu tavanlı yollardan oluşan bir labirentin etrafı kapladığı 11 kapıdan birinden geçiyor.",
+            "Çeşitli işlemler hala çoğunlukla belirli bölümlere ayrılmıştır, bu da göz atmayı kolaylaştırır.",
+            "Çarşının Divanyolu Caddesi girişine yakın bir yerde Yanık Sütun bulunur. Bir somaki sütunun bu kütüğü (hala 40 metre yüksekliğinde) Büyük Konstantin tarafından forumunda kuruldu. 1105 yılına kadar Konstantin'in bronz bir heykelini taşıyordu."
+          ],
+          "adress": "Beyazıt, Kalpakçılar Caddesi, Fatih/İstanbul",
+          "website": "https://www.kapalicarsi.com.tr/"
+        },
+        {
+          "id": "Süleymaniye-Camii",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1623439845420-6eb167001b2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80",
+            "https://images.unsplash.com/photo-1565611596388-88a6131ca373?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80",
+            "https://images.unsplash.com/photo-1623439844752-524658b16ce6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80"
+          ],
+          "descriptions": [
+            "Sultanahmet semtinin yukarısındaki bir tepede yer alan Süleymaniye Camii, İstanbul'un en tanınmış simge yapılarından biridir.",
+            "Sultan Süleyman (yaygın olarak Kanuni Sultan Süleyman olarak bilinir; 1520-1566 saltanatı) için, Edirne'deki Selimiye Camii de dahil olmak üzere Türkiye'deki birçok Osmanlı dönemi anıtından sorumlu olan ünlü Osmanlı mimarı Sinan tarafından yaptırılmıştır.",
+            "53 metre yüksekliğindeki kubbesinin hakim olduğu Süleymaniye Camii'nin iç mekanı, uyumlu oranları ve tasarım bütünlüğü ile dikkat çekiyor.",
+            "Sakin bahçe alanının dışında, Sultan Süleyman ve eşi Haseki Hürrem Sultan'ın (genellikle Türkiye dışında genellikle Roxelana olarak bilinir) türbelerine (mezarlarına) ev sahipliği yapan ilginç bir Osmanlı dönemi mezarlığı vardır."
+          ],
+          "adress": "Süleymaniye Mahallesi, Sıddık Sami Onar Caddesi, Fatih/İstanbul",
+          "website": "http://www.fatih.gov.tr/suleymaniye-camii"
+        },
+        {
+          "id": "Mısır-Çarşısı",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1607430866070-6b16015f3881?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80",
+            "https://images.unsplash.com/photo-1589900586776-53db57559c73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+          ],
+          "descriptions": [
+            "Mısır Çarşısı, lokum (Türk lokumu), kuru meyve, kuruyemişler, otlar ve tabii ki baharatlardan oluşan yemek fikrinizi alabileceğiniz yerdir.",
+            "İnşasına yardım eden paranın çoğu, Osmanlı hükümetinin Mısır yapımı ürünlere koyduğu vergilerden geliyordu, bu yüzden Türkçe adı (Mısır Çarşısı) \"Mısır Çarşısı\" anlamına geliyor.",
+            "Mısır Çarşısı, İstanbul'un en popüler turistik yerlerinden biridir ve günün belirli saatlerinde demirli yolcu gemilerinden gelen dev tur gruplarıyla gülünç derecede kalabalık olur.",
+            "Kalabalıktan kaçınmak için sabah 11'den önce veya akşam 4'ten sonra gelmeye çalışın.",
+            "Mısır Çarşısı'nın ana girişinin hemen yanında, 1615'te yapımına başlanan ve 1663'te bitirilen görkemli Yeni Cami (İstanbul için \"yeni\"dir).",
+            "İç mekan zengin çini işçiliği ve altın varak kullanımı ile zengin bir şekilde dekore edildiğinden, bölgeyi gezerken içeriye bir göz atmaya değer."
+          ],
+          "adress": "Mısır Çarşısı, Eminonu, Fatih, Istanbul",
+          "website": "https://www.misircarsisi.org.tr/en/"
+        },
+        {
+          "id": "Dolmabahçe-Sarayı",
+          "placePhotos": [
+            "https://images.unsplash.com/photo-1633038028793-f8c3bcec30e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=988&q=80",
+            "https://images.unsplash.com/photo-1565056829902-52b06e06930c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+            "https://images.unsplash.com/photo-1565596748255-4ede92a9f1a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80"
+          ],
+          "descriptions": [
+            "Görkemli ve gösterişli Dolmabahçe Sarayı, 19. yüzyılda Avrupa dekorasyonu ve mimarisinin Osmanlı İmparatorluğu üzerindeki açık etkisini göstermektedir.",
+            "1854 yılında Sultan I. Abdülmecid tarafından yaptırılan saray, padişahların ana ikametgahı olarak Topkapı Sarayı'nın yerini almıştır.",
+            "Dolmabahçe Sarayı, Türkiye Cumhuriyeti'nin kuruluş yıllarında resmi konut olarak da kullanılmış ve Atatürk (modern Türkiye'nin kurucusu) 1938'de burada vefat etmiştir.",
+            "Resmi bahçeler, çeşmeler, süs havzaları ve çiçek açan çiçek tarhları ile noktalanmıştır.",
+            "İçeride, iç mekanlar Rokoko, Barok, Neoklasik ve Osmanlı unsurlarını mamut kristal avizeler, liberal altın kullanımı, Fransız tarzı mobilyalar ve freskli tavanlarla harmanlayarak göz kamaştırıcı bir Türk Rönesans tarzı saf ihtişam ve ihtişam yaratmak için."
+          ],
+          "adress": "Dolmabahçe Caddesi, Besiktas",
+          "website": "https://www.millisaraylar.gov.tr/saraylar/dolmabahce-sarayi"
+        },
+        {
+          "id": "Kariye-Camii",
+          "placePhotos": [
+            "https://www.planetware.com/photos-large/TR/turkey-istanbul-chora-church.jpg",
+            "https://images.unsplash.com/photo-1593544648982-cf4bbfb8fc38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+            "https://www.kulturportali.gov.tr/contents/images/00003_%c4%b0stanbul_Kariye%20M%c3%bczesi_Turizm%20Bakanl%c4%b1%c4%9f%c4%b1%20Ar%c5%9fivi.jpg"
+          ],
+          "descriptions": [
+            "Kariye Yunanca \"ülke\" anlamına gelir ve bu güzel Kilise (başlangıçta Aziz Kariye Kurtarıcı Kilisesi olarak adlandırılır) eski Konstantinopolis'in surlarının hemen dışında yer alır.",
+            "İlk Kariye Kilisesi muhtemelen burada 5. yüzyılda inşa edilmiş, ancak şimdi gördüğünüz binanın 6. yeniden inşası çünkü 9. yüzyılda tamamen yıkılmış ve 11. yüzyıldan 14. yüzyıla kadar birkaç yenilemeden geçmiş.",
+            "Kilise, Osmanlı'nın İstanbul'u fethinden sonra camiye dönüştürülmüş ve 1945'te müze olmuştur. 2020'de yeniden faal camiye dönüştürülmüştür.",
+            "Anıt, iki nartekste neredeyse bozulmadan ve nefte parça parça korunmuş, inanılmaz derecede canlı 14. yüzyıl mozaikleri ve duvarlar ve kubbeler boyunca yer alan freskleriyle haklı olarak dünyaca ünlüdür.",
+            "Bizans sanatının bu inanılmaz örnekleri, İsa'nın şeceresinden Yeni Ahit hikayelerine kadar çok çeşitli konuları kapsar."
+          ],
+          "adress": "Kariye Cami Sokak, Edirnekapı",
+          "website": ""
+        },
+        {
+          "id": "Türk-İslam-Eserleri-Müzesi",
+          "placePhotos": [
+            "https://muze.gov.tr/s3/SectionPicture/SP_8f349fad-cdc5-4feb-91c7-c4466a5f7722.jpg",
+            "https://muze.gov.tr/s3/SectionPicture/SP_f87b8ac1-ab9d-4039-9d03-b260153bdce4.jpg",
+            "https://muze.gov.tr/s3/SectionPicture/SP_3a9f94e5-ccd1-44ac-9678-d3f665fe9780.jpg"
+          ],
+          "descriptions": [
+            "Kanuni Sultan Süleyman'ın Sadrazamı İbrahim Paşa'nın sarayında bulunan bu müze, Osmanlı ve İslam sanatına ilgi duyan herkesin mutlaka görmesi gereken bir yer.",
+            "Burada sergilenen halı koleksiyonu çok geniştir ve tekstil uzmanları tarafından dünyanın en iyisi olarak ilan edilmektedir.",
+            "Burası, kendi zemin parçanızı satın almak için bir alışveriş görevine başlamadan önce, yüzyıllar boyunca Türk halılarının (Kafkasya ve İran'dan gelen halılarla birlikte) göz kamaştırıcı stillerine bir göz atmak için mükemmel bir yerdir.",
+            "Ayrıca, MS 9. yüzyıldan 19. yüzyıla kadar uzanan enfes seramik, hat sanatı ve ahşap oymacılığı sergileri de bulunmaktadır."
+          ],
+          "adress": "At Meydanı Caddesi, Sultanahmet",
+          "website": "https://muze.gov.tr/muze-detay?SectionId=TIE01&DistId=TIE"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "Turizm Cenneti Antalya",
+      "description": [
+        "Antalya, Türkiye'nin bir ili ve en kalabalık beşinci şehridir. 2020 sonu itibarıyla il nüfusu 2.548.308'dır.Türkiye'de \"turizmin başkenti\" olarak görülmektedir.",
+        "Şehrin yüzölçümü 20.177 km2dir.İlde km2ye 115 kişi düşmektedir.",
+        "En kalabalık ilçesi 2019 yılı itibarıyla 556.033 kişiyle Kepez ilçesidir.",
+        "19 ilçe ve belediye, bu belediyelerde toplam 910 mahalle bulunmaktadır.",
+        "Tamamı Akdeniz Bölgesi'nin batısında yer alır ve Antalya Körfezi'yle Batı Torosların arasında kurulmuştur.",
+        "Anltalya'da yapılacak en iyi turistik yerler ve yapılacak şeyler listemizle seyahatinizi planlayın."
+      ],
+      "name": "Antalya",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://images.unsplash.com/photo-1578852952104-54f3dac8b260?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80",
+      "publicId": "",
+      "places": [
+        {
+          "id": "Hıdırlık-Kulesi",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Hidirlik-Kulesi-Antalya-Gezilecek-Yerler.jpg",
+            "https://upload.wikimedia.org/wikipedia/commons/0/03/H%C4%B1d%C4%B1rl%C4%B1k_Kulesi.JPG",
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/09/Hidirlik-Kulesi-01-e1442744911883.png"
+          ],
+          "descriptions": [
+            "Antalya Kaleiçi bölgesinde bulunan Hıdırlık Kulesi’nin 2. Yüzyılda inşa edildiği düşünülmektedir.",
+            "14 metrelik yüksekliğe sahip olan kulenin üst katında gezinti yapabileceğiniz bir alan, alt katında ise dar bir odası bulunmaktadır.",
+            "Kulenin kim için ya da kim tarafından yapıldığı net olarak bilinmese de Latin mimarisinden esintiler sunduğunu söyleyebiliriz.",
+            "Günümüzde ziyarete kapalı olan Hıdırlık Kulesi’nin muhteşem bir deniz manzarası bulunmaktadır.",
+            "Kulenin çevresine kurulmuş olan kafelerde muhteşem deniz manzarası eşliğinde birşeyler içebilir ve güneşin batışını seyredebilirsiniz."
+          ],
+          "adress": "Kılınçarslan, Hıdırlık Sk. No:50, Muratpaşa/Antalya",
+          "website": "https://tr.wikipedia.org/wiki/H%C4%B1d%C4%B1rl%C4%B1k_Kulesi"
+        },
+        {
+          "id": "Kurşunlu-Şelalesi",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/03/Kursunlu-Selalesi-Antalya.jpg",
+            "https://im.haberturk.com/2018/09/11/ver1559145922/2360047_1024x576.jpg",
+            "https://i4.hurimg.com/i/hurriyet/75/750x0/592c2d5318c7733044efa9eb.jpg"
+          ],
+          "descriptions": [
+            "Gerek Antalya’nın gerekse ülkemizin en önemli doğal güzelliklerinden biri olan Kurşunlu Şelalesi, şehrin merkezinde bulunmaktadır.",
+            "1986 yılından sonra turizme kazandırılan Kurşunlu Şelalesi, sunmuş olduğu doğal güzelliklerin yanı sıra çevresinde bulunan piknik alanları, manzara izleme platformları, yürüyüş parkurları ile her yıl binlerce kişiyi ağırlamaktadır.",
+            "18 metre yükseklikten dökülen şelalede 8 adet gölcük bulunmaktadır.",
+            "Şelalenin bulunduğu alanda çeşitli hayvan türleri de yaşam sürmektedir.",
+            "Antalya’ya kadar gitmişken Kurşunlu Şelalesi’ni görmeden tatilinizi sonlandırmayı düşünmeyiniz."
+          ],
+          "adress": " Kurşunlu, Aksu / Antalya",
+          "website": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/kursunlu-selalesi"
+        },
+        {
+          "id": "Köprülü-Kanyon",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Koprulu-Kanyon-Antalya.jpg",
+            "https://res.cloudinary.com/turna/images/f_auto,q_auto/v1605553601/antalya-koprulu-kanyon/antalya-koprulu-kanyon.jpg",
+            "https://www.side-tours.com/public/content/images/Blogs/big/K%C3%B6pr%C3%BCl%C3%BC-Kanyon-nerede_1608755915.jpeg"
+          ],
+          "descriptions": [
+            "Isparta’nın Sütçüler ilçesinde başlayıp Antalya’ya kadar uzanan Köprülü Kanyon, 25 kilometrelik dar bir parkura sahiptir.",
+            "Doğayla iç içe olmak isteyenlerin sıklıkla ziyaret ettiği yerlerden biri olan Köprülü Kanyon’da safari turuna da çıkabilirsiniz.",
+            "Antalya şehir merkezine 90 km uzaklıkta olan Köprülü Kanyon’da rafting yapma imkanına da sahip olabilirsiniz.",
+            "Ayrıca kanyon çevresinde bulunan yaylalara çıkarak muhteşem doğa manzarasının da tadını çıkarabilirsiniz.",
+            "Her ne kadar şehrin biraz uzağında kalmış olsa da Antalya’ya kadar gitmişken uğramanızı tavsiye edebiliriz."
+          ],
+          "adress": "Bozyaka, Manavgat/Antalya",
+          "website": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/koprulu-kanyon-milli-parki"
+        },
+        {
+          "id": "Aspendos",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Aspendos.jpg",
+            "https://images.unsplash.com/photo-1591814086124-b195c7964590?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "https://images.unsplash.com/photo-1591814416053-53edf5ac5cf5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          ],
+          "descriptions": [
+            "Antalya’nın Serik ilçesine bağlı Belkıs Köyü sınırları içerisinde bulunan Aspendos, özellikle amfi tiyatrosuyla dünya çapında bir üne sahiptir ve her yıl yerli yabancı binlerce kişiyi ağırlamaktadır.",
+            "M.Ö 10. Yüzyılda Akalar tarafından kurulan şehir, dönemin en zengin ve ünlü şehirlerinden birisi konumundaymış.",
+            "15 bin kişi kapasiteli tiyatro, ziyaretçilerini gerçekten büyülemektedir.",
+            "Amfi tiyatrosu dışında su kemerleri, antik çeşmesiyle de tarihi bir havaya sahiptir.",
+            "Antalya’ya 50 km uzaklıkta olan Aspendos, Antalya gezisinde görmeniz gereken en önemli yerlerden biri konumunda olduğunu düşünüyoruz."
+          ],
+          "adress": "Aspendos Blv. / Antalya",
+          "website": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/aspendos"
+        },
+        {
+          "id": "Karain-Mağarası",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Karain-Magarasi.jpg",
+            "https://i.sozcu.com.tr/wp-content/uploads/2021/01/09/iecrop/karain_16_9_1610195488.jpg"
+          ],
+          "descriptions": [
+            "Antalya’nın Yağca Köyü sınırları içinde bulunan ve denizden yüksekliği 450 metre olan Karain Mağarası, ülkemizdeki en önemli mağaralardan birisi konumundadır.",
+            "Bundan 500 bin yıl öncesinde içinde insanların yaşadığı belirtilen Karain Mağarası, bu konuda ülkemizdeki en büyük mağara olma özelliğini taşımaktadır.",
+            "Antalya – Burdur yolunun 13. Kilometresinde bulunan Karain Mağarası’na giriş için cüzi miktarda ücret ödemeniz gerekmektedir.",
+            "Antalya’nın sahip olduğu bir başka doğal güzellik olan Karain Mağarası, turizme açık olup ziyaretçilerini ağırlamaktadır."
+          ],
+          "adress": "Yağca, Antalya Merkez/Antalya",
+          "website": "https://muze.gov.tr/muze-detay?sectionId=KRM01&distId=MRK"
+        },
+        {
+          "id": "Olimpos",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Olimpos.jpg",
+            "https://www.bizevdeyokuz.com/wp-content/uploads/olimpos-kapak-1280x720.jpg",
+            "https://www.adrasan.org/wp-content/uploads/olympos-2.jpg"
+          ],
+          "descriptions": [
+            "Antalya’nın saklı cennetlerinden biri olan Olimpos, muhteşem denizi ve mükemmel havasıyla ziyaretçilerini adeta büyülüyor.",
+            "Olimpos’ta yüzyıllardır el değmeden korunan eserleri görebileceğiniz alanda doğal güzelliklerin korunması için gerekli gayretler gösterilmiş.",
+            "Bölgede inşa edilen pansiyonlar bile ağaç ev şeklinde inşa edilmiş ve ortaya hoş bir manzara çıkmış.",
+            "Eğer dağcılık sporuna meraklıysanız Olimpos’ta tırmanmak için gerekli alanlar da bulunmakta.",
+            "Ayrıca yine Olimpos’ta bulunan Yanarkayalar da oldukça dikkat çekici ve görmeniz gerektiğini söyleyebiliriz."
+          ],
+          "adress": "Kemer/Antalya",
+          "website": "https://tr.wikipedia.org/wiki/Olimpos,_Kumluca"
+        },
+        {
+          "id": "Manavgat-Şelalesi",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Manavgat-Selalesi.jpg",
+            "https://images.unsplash.com/photo-1593200987295-5631b133932a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuYXZnYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+            "https://images.unsplash.com/photo-1567255060857-8600613296b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+          ],
+          "descriptions": [
+            "Antalya’ya yolunuz düşerse ya da planlı olarak giderseniz görmeniz gereken yerlerden biri de Manavgar Şelalesi\"dir.",
+            "Ülkemizdeki en tanınmış şelalelerden biri olan Manavgat Şelalesi, Antalya’nın Manavgat ilçesinde bulunmaktadır ve 3 – 4 metre yükseklikten dökülmektedir.",
+            "Özellikle hafta sonları günü birlik ziyaret edebileceğiniz yerlerden biri olan Manavgat Şelalesi’nde piknik yapabileceğiniz alanlar da bulunmaktadır.",
+            "Ulaşımın oldukça kolay olduğu Manavgat Şelalesi, Antalya il merkezine yaklaşık 72 km uzaklıktadır.",
+            "Şelalenin kenarında bulunan restoranlardan balık yiyebilir, heyecan dolu rafting turlarına katılabilirsiniz.",
+            "Yine Manavgat Şelalesi’ne yakın noktalarda bulunan otellerde de konaklayabileceğinizi hatırlatmamızda fayda var."
+          ],
+          "adress": " Sarılar, Manavgat / Antalya",
+          "website": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/manavgat-selalesi"
+        },
+        {
+          "id": "Düden-Şelalesi",
+          "placePhotos": [
+            "https://gezilmesigerekenyerler.com/wp-content/uploads/2015/11/Duden-Selalesi.jpg",
+            "https://images.unsplash.com/photo-1585233632735-cdff5471c1f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
+            "https://images.unsplash.com/photo-1585233671263-cef0f5fb0efd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          ],
+          "descriptions": [
+            "Antalya sınırları içindeki bir başka doğal güzellik olan , Kurşunlu Şelalesi gibi her yıl binlerce yerli yabancı ziyaretçilerini ağırlamaktadır.",
+            "50 metrelik yükseklikten büyük bir gürültüyle dökülen Düden Şelalesi, Antalya’nın ve ülkemizin sahip olduğu en güzel şelalelerden birisi konumundadır.",
+            "Şelalenin bulunduğu alanda hediyelik eşya satan tezgahlardan sevdiklerinize sürpriz yapabilirsiniz.",
+            "Gördüğünüz gibi Antalya’yı sadece deniz için ziyaret etmek diğer güzelliklere saygısızlık olacaktır diye düşünüyoruz.",
+            "Bize soracak olursanız; eğer tatil planları yapıyorsanız Antalya alternatiflerinizden değil, önceliklerinizden olmalıdır."
+          ],
+          "adress": "Düdenbaşı Mah. 21. Cad. Kepez / Antalya",
+          "website": "https://www.kulturportali.gov.tr/turkiye/antalya/gezilecekyer/duden-selalesi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "heading": "Bursa'ya destek olabilirsin",
+      "description": "",
+      "name": "[GEÇERSİZ]",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://img.otelz.com/s3/placeimages/turkey/marmara/bursa_bursa-sultan-kent-9463ce.jpg",
+      "publicId": "",
+      "places": [
+        {
+          "id": 1,
+          "placePhotos": [
+            "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/16/145146.jpg"
+          ],
+          "descriptions": [],
+          "adress": "",
+          "website": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "Entebin Hamamlari",
+      "description": "",
+      "name": "[GEÇERSİZ]",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://www.gaziantep.bel.tr/uploads/2020/05/slider01_w1920_op.webp",
+      "publicId": "",
+      "places": [
+        {
+          "id": 1,
+          "placePhotos": [
+            "https://assets.enuygun.com/media/lib/570x400/uploads/image/gaziantep-35490.jpeg"
+          ],
+          "descriptions": [],
+          "adress": "",
+          "website": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "heading": "Gonya",
+      "description": "",
+      "name": "[GEÇERSİZ]",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://cdnp.flypgs.com/files/Sehirler-long-tail/Konya/konya-sehir-rehberi-merkez.jpg",
+      "publicId": "",
+      "places": [
+        {
+          "id": 1,
+          "placePhotos": [
+            "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/07/23/129973.jpg"
+          ],
+          "descriptions": [],
+          "adress": "",
+          "website": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "heading": "Karpuz",
+      "description": "",
+      "name": "[GEÇERSİZ]",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://im.haberturk.com/yerel_haber/2021/07/07/ver1625661907/88740373_620x410.jpg",
+      "publicId": "",
+      "places": [
+        {
+          "id": 1,
+          "placePhotos": [
+            "https://cdnuploads.aa.com.tr/uploads/Contents/2018/05/28/thumbs_b_c_df2c58af6fa4547fd7fdf87775394a0f.jpg"
+          ],
+          "descriptions": [],
+          "adress": "",
+          "website": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "heading": "Maybeiline Ni York",
+      "description": "",
+      "name": "[GEÇERSİZ]",
+      "dateAdded": "0000-00-00",
+      "mainPhoto": "https://assets.enuygun.com/media/lib/570x400/uploads/image/4081.jpeg",
+      "publicId": "",
+      "places": [
+        {
+          "id": 1,
+          "placePhotos": [
+            "https://ichef.bbci.co.uk/news/640/cpsprodpb/1096E/production/_112205976_gettyimages-1223538571.jpg"
+          ],
+          "descriptions": [],
+          "adress": "",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "fullName": "sadas",
+      "comment": "sjdajkjkn sakjdnkjsadsa",
+      "id": 1
+    },
+    {
+      "fullName": "ösd a",
+      "comment": "mklsad kmdsa",
+      "id": 2
+    },
+    {
+      "fullName": "sad",
+      "comment": "sdakmlkdsamsadlm",
+      "id": 3
+    },
+    {
+      "fullName": "sad",
+      "comment": "sdakmlkdsamsadlm",
+      "id": 4
+    },
+    {
+      "fullName": "sadn",
+      "comment": "nksjadksad",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "fullName": "",
+      "comment": ""
+    },
+    {
+      "id": 7,
+      "fullName": "",
+      "comment": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Javascript",
+      "level": 5,
+      "favorite": 5
+    },
+    {
+      "id": 2,
+      "name": "Angular",
+      "level": 3,
+      "favorite": 5
+    },
+    {
+      "id": 3,
+      "name": "Bootstrap",
+      "level": 5,
+      "favorite": 4
+    },
+    {
+      "id": 4,
+      "name": "Material UI",
+      "level": 4,
+      "favorite": 4
+    },
+    {
+      "id": 5,
+      "name": "HTML",
+      "level": 5,
+      "favorite": 3
+    },
+    {
+      "id": 6,
+      "name": "CSS",
+      "level": 5,
+      "favorite": 4
+    },
+    {
+      "id": 7,
+      "name": "JQuery",
+      "level": 5,
+      "favorite": 5
+    },
+    {
+      "id": 8,
+      "name": "Java",
+      "level": 2,
+      "favorite": 2
+    },
+    {
+      "id": 9,
+      "name": "SpringBoot",
+      "level": 1,
+      "favorite": 2
+    },
+    {
+      "id": 10,
+      "name": "Office Tools",
+      "level": 3,
+      "favorite": 2
+    },
+    {
+      "id": 11,
+      "name": "Azure",
+      "level": 2,
+      "favorite": 3
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "name": "Javascript",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "d89eaf85-4d6a-46ca-8a61-f5a523c42d96",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 2,
+      "name": "JQuery with Projects",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "6cb7767e-2c14-4fe9-8aa0-5b7c7624ab24",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 3,
+      "name": "Web Programming with jQuery",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "7b4724cd-f8b4-47ad-bc3f-8bbe03f1ba4f",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 4,
+      "name": "CSS3",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "dNk2po08",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 5,
+      "name": "Web Developing with HTML5",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "bkR6qrNY",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 6,
+      "name": "Introduction to Algorithm, Programming and Data Structures",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "68be24c5-2d88-4735-81e1-add03f5cb9ae",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 7,
+      "name": "Introduction to Information Technologies",
+      "company": "Bilgi Teknolojileri ve İletişim Kurumu - BTK - ICT",
+      "website": "https://www.btkakademi.gov.tr/portal/",
+      "date": 2021,
+      "url": "bYEZKQnA",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 8,
+      "name": "English A2 Certificate",
+      "company": "Büyükçekmece Halk Eğitim Merkezi",
+      "website": "https://buyukcekmecehem.meb.k12.tr/tema/iletisim.php",
+      "date": 2020,
+      "url": "97053920200066081106",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 9,
+      "name": "Web Programming 101",
+      "company": "Turkcell",
+      "website": "https://gelecegiyazanlar.turkcell.com.tr/",
+      "date": 2021,
+      "url": "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/triggerhandler/Web%20Programlama/101",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 10,
+      "name": "Web Programming 201",
+      "company": "Turkcell",
+      "website": "https://gelecegiyazanlar.turkcell.com.tr/",
+      "date": 2021,
+      "url": "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/triggerhandler/Web%20Programlama/201",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 11,
+      "name": "Web Programming 301",
+      "company": "Turkcell",
+      "website": "https://gelecegiyazanlar.turkcell.com.tr/",
+      "date": 2021,
+      "url": "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/triggerhandler/Web%20Programlama/301",
+      "noExpire": "Unlimited"
+    },
+    {
+      "id": 12,
+      "name": "Web Programming 302",
+      "company": "Turkcell",
+      "website": "https://gelecegiyazanlar.turkcell.com.tr/",
+      "date": 2021,
+      "url": "https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/triggerhandler/Web%20Programlama/302",
+      "noExpire": "Unlimited"
+    }
+  ],
+  "cv": [
+    {
+      "id": 1,
+      "name": "Uğurcan Baş",
+      "age": 25,
+      "university": "İstanbul University Cerrahpaşa",
+      "department": "Computer Programming",
+      "year": "2018-2020",
+      "degree": "2.93",
+      "communities": [
+        "İU Basketball Team",
+        "Origami Club",
+        "Dragon Boat Team",
+        "İU Social Activities"
+      ],
+      "languages": [
+        "English-B1",
+        "German-A1"
+      ]
+    }
+  ],
+  "cvforms": [
+    {
+      "name": "ss",
+      "email": "bb",
+      "id": 1
+    }
+  ],
+  "people": [
+    {
+      "id": 1,
+      "name": "II. Mehmed",
+      "age": 49,
+      "date": "(1432 - 1481)",
+      "heading": "Fatih Sultan Mehmed",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [
+        "Mehmed (Romanize: Mehmed-i s̱ānī; Türkçe: II. Mehmed; 30 Mart 1432 - 3 Mayıs 1481), yaygın olarak Fatih Sultan Mehmed olarak bilinir.Romanlaştırılmış: Ebū'l-Feth, lit. ''Fetih Babası'; Türkçe: Fatih Sultan Mehmed), Ağustos 1444'ten Eylül 1446'ya ve daha sonra Şubat 1451'den Mayıs 1481'e kadar hüküm sürmüş bir Osmanlı padişahıydı. Mehmed'in ilk saltanatı sırasında, ülkesine yapılan Macar akınları Szeged Barışı'nın şartlarını bozduktan sonra İoannis Hunyadi liderliğindeki haçlı seferini bozguna uğrattı. Mehmed 1451'de tekrar tahta çıkınca Osmanlı donanmasını güçlendirdi ve Konstantinopolis'e saldırmak için hazırlıklar yaptı. 21 yaşında Konstantinopolis'i (günümüz İstanbul) fethetti ve Bizans İmparatorluğu'na son verdi."
+      ],
+      "cardDescriptions": [
+        {
+          "id": 1,
+          "tag": "",
+          "explain": [
+            "II. Mehmed'in İtalyan ressam Gentile Bellini'ye yaptırdığı 1479 tarihli portre"
+          ]
+        },
+        {
+          "id": 2,
+          "tag": "",
+          "explain": [
+            "7. Osmanlı Padişahı"
+          ]
+        },
+        {
+          "id": 3,
+          "tag": "Hüküm Süresi:",
+          "explain": [
+            "Ağustos 1444 – Eylül 1446 (I. dönem)"
+          ]
+        },
+        {
+          "id": 4,
+          "tag": "Önce Gelen:",
+          "explain": [
+            "II. Murad"
+          ]
+        },
+        {
+          "id": 5,
+          "tag": "Sonra Gelen:",
+          "explain": [
+            "II. Murad"
+          ]
+        },
+        {
+          "id": 6,
+          "tag": "Hüküm Süresi:",
+          "explain": [
+            "3 Şubat 1451 – 3 Mayıs 1481(II. dönem)"
+          ]
+        },
+        {
+          "id": 7,
+          "tag": "Önce Gelen:",
+          "explain": [
+            "II. Murad"
+          ]
+        },
+        {
+          "id": 8,
+          "tag": "Sonra Gelen:",
+          "explain": [
+            "II. Bayezid"
+          ]
+        },
+        {
+          "id": 9,
+          "tag": "Doğum:",
+          "explain": [
+            "30 Mart 1432 Edirne, Rumeli Eyaleti, Osmanlı İmparatorluğu"
+          ]
+        },
+        {
+          "id": 10,
+          "tag": "Ölüm:",
+          "explain": [
+            "3 Mayıs 1481 (49 yaşında) Hünkârçayırı, Gebze, Osmanlı İmparatorluğu"
+          ]
+        },
+        {
+          "id": 11,
+          "tag": "Defin:",
+          "explain": [
+            "22 Mayıs 1481 Fatih Camii, İstanbul, Türkiye"
+          ]
+        },
+        {
+          "id": 12,
+          "tag": "Eş(ler)i:",
+          "explain": [
+            "Emine Gülbahar Hatun",
+            "Gülşah Hatun",
+            "Hatice Hatun",
+            "Sitti Mükrime Hatun",
+            "Çiçek Hatun"
+          ]
+        },
+        {
+          "id": 13,
+          "tag": "Çocuk(lar)ı:",
+          "explain": [
+            "II. Bayezid",
+            "Şehzade Mustafa",
+            "Cem Sultan",
+            "Gevherhan Hatun"
+          ]
+        },
+        {
+          "id": 14,
+          "tag": "Hanedan:",
+          "explain": [
+            "Osmanlı Hanedanı"
+          ]
+        },
+        {
+          "id": 15,
+          "tag": "Tam İsmi:",
+          "explain": [
+            "Mehmed bin Murad"
+          ]
+        },
+        {
+          "id": 16,
+          "tag": "Babası:",
+          "explain": [
+            "II. Murad"
+          ]
+        },
+        {
+          "id": 17,
+          "tag": "Annesi:",
+          "explain": [
+            "Hüma Hatun"
+          ]
+        },
+        {
+          "id": 18,
+          "tag": "Dini:",
+          "explain": [
+            "İslam"
+          ]
+        }
+      ],
+      "contents": [
+        {
+          "id": 1,
+          "contentHeader": "Fatih Sultan Mehmed",
+          "panelId": "erkensaltanati",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Hunername_accession_Mehmed_II.jpg/180px-Hunername_accession_Mehmed_II.jpg",
+          "imgDesc": "Mehmed'in Edirne'de tahta çıkışı, 1451",
+          "contentMain": [
+            "Mehmed, 30 Mart 1432'de o zamanlar Osmanlı devletinin başkenti olan Edirne'de doğdu. Babası Sultan II. Murad (1404-1451), annesi ise menşei belirsiz bir köle olan Hüma Hatun'dur.",
+            "Mehmed on bir yaşında iken, kendi zamanından önceki Osmanlı hükümdarlarının âdetlerine göre idare etmek ve böylece tecrübe kazanmak üzere iki lala (danışman) ile Amasya'ya gönderildi.[7] Sultan II. Murad da yanında çalışması için birkaç hoca gönderdi. Bu İslami eğitimin Mehmed'in zihniyetinin şekillenmesinde ve Müslüman inançlarını pekiştirmesinde büyük etkisi olmuştur. İslami epistemoloji pratiğinde bilim pratisyenlerinden, özellikle de akıl hocası Molla Gürani'den etkilenmiş ve onların yaklaşımını izlemiştir.",
+            "Akshamsaddin'in Mehmed'in hayatındaki etkisi, özellikle Konstantinopolis'i fethederek Bizans imparatorluğunu devirmek için İslami görevini yerine getirme zorunluluğunda, genç yaştan itibaren baskın hale geldi.",
+            "Murad, 12 Haziran 1444'te Macaristan ile barış yaptıktan sonra[8] Temmuz[9]/Ağustos[8] 1444'te tahtı 12 yaşındaki oğlu II. Mehmed'e bıraktı.Mehmed'in ilk saltanatı sırasında, ülkesine yapılan Macar akınları Eylül 1444'te Szeged Barışı'nın şartlarını bozduktan sonra İoannis Hunyadi liderliğindeki haçlı seferini bozguna uğrattı.[8] Papa'nın temsilcisi Kardinal Julian Cesarini, Macaristan kralını Müslümanlarla ateşkesi bozmanın ihanet olmadığına ikna etmişti. Bu sırada Mehmed II, babası II. Murad'dan tahtı geri almasını istedi, ancak II. Murad reddetti. . 17. yüzyıl kroniklerine göre[10] II.Mehmed, \"Eğer padişahsanız gelin ordularınıza komutanlık edin. Ben padişahsam size gelip ordularıma komuta etmenizi emrediyorum\" diye yazmıştır. Ardından II. Murad, Osmanlı ordusuna komuta etti ve 10 Kasım 1444'te Varna Savaşı'nı kazandı.[8] Halil İnalcık, II. Mehmed'in babasını istemediğini belirtir. Bunun yerine, II. Murad'ı tekrar tahta çıkarmak için Çandarlı Halil Paşa'nın çabası olmuştur.",
+            "1446'da II. Murad tahta döndü, II. Mehmed padişah unvanını korudu, ancak yalnızca Manisa valisi olarak görev yaptı. Murad'ın 1451'de ölümünün ardından II. Mehmed ikinci kez padişah oldu. Karamanlı İbrahim Bey, ihtilaflı bölgeyi işgal ederek Osmanlı yönetimine karşı çeşitli isyanlar çıkardı. Mehmed, Karamanlı İbrahim'e karşı ilk seferini yapmış; Bizanslılar, Osmanlı davacısı Orhan'ı serbest bırakmakla tehdit ettiler.[8]"
+          ]
+        },
+        {
+          "id": 2,
+          "contentHeader": "Konstantinopolis'in Fethi",
+          "panelId": "konstantinopolisinfethi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Zonaro_GatesofConst.jpg/220px-Zonaro_GatesofConst.jpg",
+          "imgDesc": "Mehmed'in Konstantinopolis'e girişi, Fausto Zonaro'nun (1854–1929) tablosu",
+          "contentMain": [
+            "Mehmed 1451'de tekrar tahta çıkınca, kendini Osmanlı donanmasını güçlendirmeye adadı ve İstanbul'a saldırmak için hazırlıklar yaptı. Dar boğazlarda, Anadoluhisarı Anadoluhisarı, Anadolu yakasında büyük dedesi I. Bayezid tarafından yaptırılmıştır; Mehmed, Avrupa yakasında Rumelihisarı adı verilen daha da güçlü bir kale inşa ederek boğazın kontrolünü tamamen ele geçirdi.",
+            "Kalelerini tamamlayan Mehmed, toplarının ulaşabileceği mesafeden geçen gemilerden geçiş ücreti almaya başladı. Dur işaretlerini dikkate almayan bir Venedik gemisi tek kurşunla batırıldı ve hayatta kalan tüm denizcilerin kafaları kesildi,[12] boğazdaki diğer denizcilere bir uyarı olarak direğe geçirilip insan korkuluğu gibi monte edilen kaptan hariç.",
+            "İslam peygamberi Muhammed'in yoldaşı ve sancaktarı Ebu Eyyub el-Ensari, ilk Konstantinopolis Kuşatması (674-678) sırasında ölmüştü. Mehmed'in ordusu Konstantinopolis'e yaklaşırken, Mehmed'in şeyhi Akshamsaddin[14], Ebu Eyyub el-Ensari'nin mezarını keşfetti. Fetihten sonra Mehmed, fethin İslam dünyası için önemini vurgulamak ve gazilik rolünü vurgulamak için yerine Eyüp Sultan Camii'ni yaptırmıştır.[14]",
+            "1453'te Mehmed, 80.000 ila 200.000 kişilik bir ordu, yetmişin üzerinde büyük sahra parçasından oluşan bir topçu treni[15] ve çoğunluğu nakliye ve ambar olmak üzere 320 gemiden oluşan bir donanma ile Konstantinopolis'i kuşatmaya başladı. Şehir deniz ve kara ile çevriliydi; Boğaz'ın girişindeki donanma, denizden Konstantinopolis'e yapılacak herhangi bir yardımı durdurmak veya geri püskürtmek için kıyıdan kıyıya hilal şeklinde uzanıyordu.[12] Nisan ayı başlarında Konstantinopolis Kuşatması başladı. Mehmed'in ordusu, Çanakkale Silahı'na benzer dev bir top olan Orban tarafından tasarlanan yeni bombayı kullanmasına rağmen, ilk başta şehrin surları Türkleri uzak tuttu. Haliç limanı bir bom zinciri tarafından engellendi ve yirmi sekiz savaş gemisi tarafından korundu.",
+            "22 Nisan'da Mehmed daha hafif savaş gemilerini karadan, Ceneviz kolonisi Galata'nın çevresine ve Haliç'in kuzey kıyısına nakletti; 80 kadırga, bir milden biraz fazla ahşap yol döşendikten sonra İstanbul Boğazı'ndan sevk edildi. Böylece Bizanslılar birliklerini surların daha uzun bir kısmına gerdiler. Yaklaşık bir ay sonra, elli yedi günlük bir kuşatmanın ardından 29 Mayıs'ta Konstantinopolis düştü.[12] Bu fetihten sonra Mehmed, Osmanlı başkentini Edirne'den Konstantinopolis'e taşıdı.II. Mehmed, Osmanlılar ve Persler tarafından Sezarların Sarayı olarak bilinen ve muhtemelen bin yıldan fazla bir süre önce II. Theodosius tarafından inşa edilen Bukoleon'un kalıntılarına adım attığında, Saadi'nin ünlü dizelerini dile getirdi.",
+            "Konstantinopolis'in fethinden sonra Mehmed, Konstantinopolis'in MS 330'dan beri Roma İmparatorluğu'nun koltuğu ve başkenti olduğu ve imparatorluk başkentine kimin sahip olduğu iddiasına dayanarak, Roma İmparatorluğu'nun Sezar'ı (Qayser-i Rûm) unvanını talep etti. İmparatorluğun hükümdarı.[21] Çağdaş bilgin Trabzonlu George, onun iddiasını destekledi.[22][23] İddia, Katolik Kilisesi ve Batı Avrupa'nın tamamı olmasa da çoğu tarafından tanınmadı, ancak Doğu Ortodoks Kilisesi tarafından kabul edildi. Mehmed, Batı'nın sadık bir hasmı olan Gennadius Scholarius'u, kendisini söz konusu imparatorlukta bizzat padişah tarafından ikinci büyük toprak sahibi yapan tüm törensel unsurlar, etnarch (veya milletbaşı) statüsü ve mülkiyet haklarıyla birlikte Konstantinopolis'in ekümenik patriği olarak atamıştı. 1454'te II. Gennadius, Fatih Sultan Mehmed'i tahtın halefi olarak tanıdı.",
+            "İmparator Konstantin XI Paleologos bir varis olmadan öldü ve Konstantinopolis Osmanlılara düşmemiş olsaydı, muhtemelen ölen ağabeyinin oğulları onun yerine geçecekti. Bu çocuklar Konstantinopolis'in düşmesinden sonra Mehmed'in saray hizmetine alındı. Adı Has Murad olan en büyük çocuk, Mehmed'in kişisel favorisi oldu ve Balkanlar'ın beylerbeyliğini yaptı. Küçük oğlu Mesih Paşa, Osmanlı donanmasının amirali ve Gelibolu sancak beyi oldu. Sonunda Mehmed'in oğlu II. Bayezid'in altında iki kez Sadrazamlık yaptı.",
+            "Konstantinopolis'in düşmesinden sonra Mehmed, 1460'ta Mora'daki Mora Despotluğu'nu ve 1461'de kuzeydoğu Anadolu'daki Trabzon İmparatorluğu'nu da fethetmeye devam edecekti. Böylece Bizans egemenliğinin son iki kalıntısı Osmanlı İmparatorluğu tarafından emildi. Konstantinopolis'in fethi ülkeye muazzam bir şan ve prestij kazandırdı. Konstantinopolis'in fethinden 10 yıl sonra, II. Mehmed'in Truva bölgesini ziyaret ettiği ve Yunanlıları (Bizanslılar) fethederek Truvalıların intikamını aldığıyla övündüğüne dair bazı tarihsel kanıtlar var."
+          ]
+        },
+        {
+          "id": 3,
+          "contentHeader": "Sırbistan'ın Fethi (1454-1459)",
+          "panelId": "sirbistaninfethi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Siegebelgrade.jpg/220px-Siegebelgrade.jpg",
+          "imgDesc": "Belgrad Kuşatması'nın Osmanlı minyatürü, 1456",
+          "contentMain": [
+            "Mehmed'in Konstantinopolis'ten sonraki ilk seferleri, 1389'daki Kosova Savaşı'ndan bu yana bir Osmanlı vasal devleti olan Sırbistan yönündeydi. Osmanlı hükümdarının Sırp Despotluğu ile bir bağlantısı vardı – II. Murad'ın eşlerinden biri Mara Branković'ti – ​​ve II. bazı Sırp adaları üzerinde hak iddia etmek için bu gerçeği kullandı.",
+            "Đurađ Branković'in yakın zamanda Macarlarla ittifak yapmış olması ve haraçları düzensiz ödemesi önemli olabilir. Sırbistan bu talepleri reddedince, Osmanlı ordusu 1454'te Edirne'den Sırbistan'a doğru yola çıktı. Smederevo ve Sırbistan'ın en önemli maden ve ergitme merkezi Novo Brdo kuşatıldı. Osmanlılar ve Macarlar 1456 yılına kadar savaşmışlardır.",
+            "Osmanlı ordusu Belgrad'a kadar ilerledi ve 14 Temmuz 1456'da Belgrad Kuşatması'nda İoannis Hunyadi'den şehri fethetmeye çalıştıysa da başarısız oldu. Mehmed'in, Kanuni Sultan Süleyman olarak bilinen torununun saltanatı. Padişah Edirne'ye çekildi ve Đurađ Branković Sırbistan'ın bazı bölgelerini yeniden ele geçirdi. Ancak yıl sonundan önce 79 yaşındaki Branković öldü. Sırp bağımsızlığı, Osmanlı İmparatorluğu'nun dul eşi ve kalan üç oğlu arasındaki anlaşmazlıktan sonra topraklarını resmen ilhak etmesinden sadece iki yıl sonra hayatta kaldı. En küçüğü Lazar, annesini zehirledi ve kardeşlerini sürgüne gönderdi, ancak kısa süre sonra öldü. Devam eden kargaşada en büyük erkek kardeş Stefan Branković tahta geçti ancak Mart 1459'da tahttan indirildi. Bundan sonra Sırp tahtı, Bosna'nın müstakbel kralı Stephen Tomašević'e teklif edildi ve bu da Sultan Mehmed'i çileden çıkardı. Haziran 1459'da Smederevo'yu ele geçiren ordusunu gönderdi ve Sırp Despotluğunun varlığına son verdi."
+          ]
+        },
+        {
+          "id": 4,
+          "contentHeader": "Mora'nın Fethi (1458-1460)",
+          "panelId": "moraninfethi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sarayi_Album_145ba.jpg/220px-Sarayi_Album_145ba.jpg",
+          "imgDesc": "15. yüzyılda II. Mehmet'in (1432-1481) İtalyan etkisini gösteren portresi",
+          "contentMain": [
+            "Mora Despotluğu, güney Osmanlı Balkanlarını sınırladı. Osmanlılar, 1446'da Korint Kıstağı'ndaki Bizans savunmasını - Hexamilion duvarını - tahrip ederek, II. Murad'ın komutasındaki bölgeyi zaten işgal etmişti. Konstantinopolis'in son kuşatmasından önce Mehmed, Osmanlı birliklerine Mora'ya saldırma emri verdi.",
+            "Despotlar, son imparatorun kardeşleri Demetrios Palaiologos ve Thomas Palaiologos, herhangi bir yardım göndermediler. Kendi beceriksizlikleri, onlara karşı bir Arnavut-Yunan isyanıyla sonuçlandı ve bu sırada isyanı bastırmak için Osmanlı birliklerini davet ettiler.",
+            "Bu sırada, bir dizi etkili Moreote Rum ve Arnavut, Mehmed ile özel barış yaptılar.[32] Despotların daha yıllarca beceriksiz yönetiminden, padişaha yıllık haraçlarını ödememelerinden ve nihayet Osmanlı yönetimine karşı kendi isyanlarından sonra Mehmed, 1460 Mayıs'ında Mora'ya girdi. Başkent Mistra, Konstantinopolis'ten tam yedi yıl sonra, 29'da düştü. Mayıs 1460. Demetrios, Osmanlıların esiri oldu ve küçük kardeşi Tomas kaçtı. Yaz sonunda Osmanlılar, Yunanlıların elindeki hemen hemen tüm şehirleri teslim etmeyi başarmışlardı.",
+            "Bir süre için birkaç bekletme kaldı. Monemvasia adası teslim olmayı reddetti ve kısa bir süre için bir Katalan korsan tarafından yönetildi. Nüfus onu kovduğunda, 1460'ın sonundan önce Thomas'ın Papa'nın korumasına boyun eğmek için onayını aldılar.[33] Mora'nın güney ucundaki Mani Yarımadası, yerel klanların gevşek bir koalisyonu altında direndi ve bölge daha sonra Venedik'in egemenliğine girdi. Son direniş Mora'nın kuzeybatısındaki Salmeniko'ydu. Graitzas Paleologos, Salmeniko Kalesi'nde (Orgia Kalesi olarak da bilinir) konuşlanmış askeri komutandı. Kasaba sonunda teslim olurken, Graitzas ve garnizonu ve bazı kasaba sakinleri, kaçıp Venedik topraklarına ulaştıklarında Temmuz 1461'e kadar kalede kaldılar."
+          ]
+        },
+        {
+          "id": 5,
+          "contentHeader": "Trabzon'un Fethi (1460-1461)",
+          "panelId": "trabzonunfethi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Vlad_Tepes_002.jpg/220px-Vlad_Tepes_002.jpg",
+          "imgDesc": "Kazıklı Vlad'ın (Drakula) Portresi, Eflak Prensi, 1460",
+          "contentMain": [
+            "Trabzon imparatorları, çeşitli Müslüman hükümdarlarla kraliyet evlilikleri yoluyla ittifaklar kurdular. Trabzon İmparatoru IV. İoannis, Trabzon'u savunma sözü karşılığında kızını kayınbiraderi Akkoyunlu Hanı Uzun Hasan'ın oğluyla evlendirdi. Sinop ve Karamanya Türk beylerinden, Gürcistan kral ve şehzadelerinden de destek sözü aldı.",
+            "Osmanlılar Trabzon'u ele geçirmek veya yıllık haraç almak için motive edildi. Murad zamanında 1442'de ilk kez deniz yoluyla başkenti ele geçirmeye çalıştılar, ancak yüksek sörf çıkarmayı zorlaştırdı ve bu girişim püskürtüldü. Mehmed 1456'da Belgrad'ı kuşatırken, Amasya'nın Osmanlı valisi Trabzon'a saldırdı ve mağlup olmasına rağmen birçok esir aldı ve ağır bir haraç aldı.",
+            "John'un 1459'daki ölümünden sonra, kardeşi David iktidara geldi ve Kudüs'ün fethini de içeren çılgın planlardan bahsederek, Osmanlılara karşı yardım için çeşitli Avrupa güçlerinin ilgisini çekti. Mehmed sonunda bu entrikaları duydu ve Davud'un Mehmed'in kardeşine dayatılan haraçları geri çekmesi talebiyle harekete geçmeye teşvik edildi.",
+            "Fatih Sultan Mehmed'in yanıtı 1461 yazında geldi. Karadan Bursa'dan, denizden de Osmanlı donanmasından büyük bir orduyla Sinop'a geçerek İsmail'in kardeşi Ahmed'le (Kızıllar) güçlerini birleştirdi. Sinop'u ele geçirdi ve aynı yıl atamayı iptal etmek için Ahmed'i Kastamonu ve Sinope'ye vali olarak atamasına rağmen, Jandarid hanedanının resmi saltanatını sona erdirdi. Jandarid hanedanının diğer çeşitli üyelerine Osmanlı İmparatorluğu tarihi boyunca önemli görevler verildi. Uzun Hasan, Trabzon yürüyüşü sırasında annesi Sara Hatun'u elçi olarak gönderdi; Zigana'nın sarp tepelerini yaya olarak çıkarlarken, Sultan Mehmed'e Trabzon uğruna neden bu kadar zahmete girdiğini sordu. Mehmed cevap verdi:",
+            "Anne, elimde İslam kılıcı, bu zahmet olmadan gazi adını hak etmem ve bugün ve yarın Allah'ın huzurunda utanarak yüzümü örtmem gerekir.",
+            "Trabzon'u tecrit eden Mehmed, sakinleri onun geleceğini anlamadan çabucak orayı süpürdü ve onu kuşatma altına aldı. Şehir, imparator David'in 15 Ağustos 1461'de teslim olmasından önce bir ay dayandı."
+          ]
+        },
+        {
+          "id": 6,
+          "contentHeader": "Eflak'ın Teslimi (1459-1462)",
+          "panelId": "eflakinteslimi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/AtaculdeNoapte.jpg/220px-AtaculdeNoapte.jpg",
+          "imgDesc": "Kazıklı Vlad'ın (Drakula) zaferiyle sonuçlanan Târgovişte'nin Gece Saldırısı.",
+          "contentMain": [
+            "15. yüzyılın başlarından itibaren Osmanlılar, Eflak'ı kendi adaylarını tahta geçirerek kontrol altına almaya çalıştılar, ancak her girişim başarısızlıkla sonuçlandı. Osmanlılar, Wallachia'yı kendileriyle Macaristan Krallığı arasında bir tampon bölge olarak gördüler ve yıllık bir haraç için iç işlerine karışmadılar.",
+            "İki ana Balkan gücü, Macaristan ve Osmanlılar, Wallachia'yı kendi vasalları yapmak için kalıcı bir mücadele sürdürdüler. Eflak'ın Macar çetesine düşmesini önlemek için Osmanlılar, kardeşi Radu ile birlikte dört yıl Murad'ın tutsağı olan genç Vlad III'ü (Drakula) Vlad'ın Eflak tahtını talep edebilmesi için serbest bıraktı. Ancak Hunyadi Eflak'ı işgal edip Dănești klanından müttefiki II. Vladislav'ı tahta çıkardığı için hükümdarlığı kısa sürdü.",
+            "Vlad III Drakula, dayısı Bogdan II'nin koruması altında yaşadığı Moldavya'ya kaçtı. Ekim 1451'de Bogdan öldürüldü ve Vlad Macaristan'a kaçtı. Vlad'ın Osmanlı İmparatorluğu'nun zihniyeti ve iç işleyişi hakkındaki engin bilgisinin yanı sıra Türklere ve yeni Sultan Mehmed'e olan nefretinden etkilenen Hunyadi, eski düşmanıyla uzlaştı ve Vlad III'ü kendi danışmanı yapmaya çalıştı, ancak Vlad reddetti.",
+            "1456'da, yani Osmanlılar Konstantinopolis'i fethettikten üç yıl sonra, Belgrad'ı kuşatarak Macaristan'ı tehdit ettiler. Hunyadi Sırbistan'da uyumlu bir karşı saldırı başlattı: kendisi Sırbistan'a taşınıp kuşatmayı rahatlatırken (vebadan ölmeden önce), Vlad III Dracula kendi birliğini Wallachia'ya götürdü, ana topraklarını yeniden fethetti ve II. Vladislav'ı öldürdü.",
+            "1459'da II. Mehmed, Osmanlı kuvvetlerine 10.000 dukalık ve 500 askerlik gecikmiş bir haraç[36] ödemesi için Vlad'a elçiler gönderdi. Vlad III Drakula, Osmanlı elçilerini, Allah'ın huzurunda sadece başlıklarını çıkardıkları için kendisine \"şapkalarını\" kaldırmayı reddettikleri gerekçesiyle sarıklarını başlarına çivileyerek öldürdüler.",
+            "Bu arada Sultan, Niğbolu Beyi Hamza Paşa'yı barış yapmak ve gerekirse III. Vlad'ı ortadan kaldırmak için gönderdi.[37] Vlad III bir pusu kurdu; Osmanlılar kuşatıldı ve hemen hepsi yakalanıp asıldı, Hamza Paşa rütbesine uygun olarak en yüksek kazığa asıldı.",
+            "1462 kışında III. Vlad Tuna'yı geçti ve Sırbistan ile Karadeniz arasındaki bölgedeki tüm Bulgar topraklarını yaktı. İddiaya göre kendini bir Türk Sipahisi olarak gizleyen ve Türk diline ve geleneklerine olan hakimiyetini kullanan III. Vlad, Osmanlı kamplarına sızdı, birkaç Osmanlı kuvvetini pusuya düşürdü, katletti veya ele geçirdi. 2 Şubat tarihli Corvinus'a yazdığı bir mektupta şunları yazdı:",
+            "Tuna'nın denize döküldüğü Oblucitza ve Novoselo'da, Chilia yakınlarındaki Rahova'ya, aşağı Tuna'dan Samovit ve Ghighen gibi yerlere kadar yaşayan yaşlı ve genç köylü kadınları ve erkekleri öldürdüm. 23.884 Türk'ü evlerde yaktıklarımızı ve askerlerimiz tarafından kafası kesilen Türkleri saymadan öldürdük.... O halde majesteleri, bilmelisiniz ki onunla barışı bozdum [Mehmed II]",
+            "Mehmed, Eflak'ta III. Vlad'a cezai bir saldırı başlatmak için Korint kuşatmasını terk etti[39] ancak görünüşe göre Sultan'ı şahsen öldürmeye kararlı olan III. Fatih Sultan Mehmed ve Yakışıklı Radu'nun kuvvetlerinin Târgoviste'ye geldiklerinde, şehirde o kadar çok Türk'ün kazığa geçirildiğini gördükleri ve bu manzara karşısında dehşete düşen Mehmed'in geri çekilmeyi düşündüğü, ancak komutanları tarafından kalmaya ikna edildiği söylenir. Bununla birlikte, Vlad'ın Osmanlılara karşı kararlı bir direniş politikası popüler değildi ve boyarların (yerel aristokrasi) yatıştırıcı hizbi tarafından ihanete uğradı, çoğu da Daneşti yanlısı (rakip bir prens kolu). En iyi arkadaşı ve ona yardım etmeye söz veren Moldavyalı III. Stephen, şansı yakaladı ve onun yerine Chilia Kalesi'ni geri almaya çalışırken ona saldırdı. Vlad III dağlara çekilmek zorunda kaldı. Bundan sonra Osmanlılar, Eflak başkenti Târgoviște'yi ele geçirdi ve II. Mehmed, Radu'yu Wallachia hükümdarı olarak bırakarak çekildi. Üstün hizmet vererek 6.000 Eflaklıyı ortadan kaldıran ve 2.000 kellesini II. Mehmed'in ayaklarına bırakan Turahanoğlu Ömer Bey de ödül olarak Teselya'daki eski valiliğine iade edildi.[41] Vlad sonunda Macaristan'a kaçtı ve burada derebeyi Matthias Corvinus'a karşı sahte bir ihanet suçlamasıyla hapsedildi."
+          ]
+        },
+        {
+          "id": 7,
+          "contentHeader": "Bosna'nın Fethi (1463)",
+          "panelId": "bosnaninfethi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mehmed_II_ferman.jpg/220px-Mehmed_II_ferman.jpg",
+          "imgDesc": "Mehmed'in yeni fethedilen Bosna'daki Katolik rahiplere 1463'te yayınladığı ve onlara tam bir din özgürlüğü ve koruması sağlayan ahidnâmesi.",
+          "contentMain": [
+            "Sırbistan despotu Lazar Branković 1458'de öldü ve varisleri arasında 1459/1460'ta Osmanlı'nın Sırbistan'ı fethiyle sonuçlanan bir iç savaş çıktı. Bosna kralının oğlu Stephen Tomašević, Sırbistan'ı kontrolü altına almaya çalıştı, ancak Osmanlı seferleri onu planından vazgeçmeye zorladı ve Stephen, babasının sarayına sığınmak için Bosna'ya kaçtı.[42] Bazı muharebelerden sonra Bosna, Osmanlı'ya haraç veren bir krallık oldu.",
+            "10 Temmuz 1461'de Stephen Thomas öldü ve Stephen Tomašević onun yerine Bosna Kralı oldu. 1461'de Stephen Tomašević, Macarlarla ittifak kurdu ve yaklaşmakta olan bir Osmanlı işgali karşısında Papa II. Pius'tan yardım istedi.",
+            "1463'te Bosna Krallığı'nın Osmanlılara her yıl ödediği haraç konusunda çıkan bir anlaşmazlıktan sonra Venediklilerden yardım istedi. Ancak hiçbiri Bosna'ya ulaşmadı. 1463'te Sultan II. Mehmed bir orduyla ülkeye girdi. Kraliyet şehri Bobovac kısa süre sonra düştü ve Stephen Tomašević'i Jajce'ye ve daha sonra Ključ'a çekilmeye bıraktı. Mehmed Bosna'yı işgal etti ve çok hızlı bir şekilde fethetti, Stephen Tomašević ve amcası Radivoj'u idam etti. Bosna resmen 1463'te düştü ve Osmanlı İmparatorluğu'nun en batı eyaleti oldu."
+          ]
+        },
+        {
+          "id": 8,
+          "contentHeader": "Osmanlı-Venedik Savaşı (1463-1479)",
+          "panelId": "osmanlivenediksavasi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/%22I_Turchi_respinti_da_Scutari%22_Gatteri%27s_Etching_of_the_Siege_of_Shkodra.jpg/220px-%22I_Turchi_respinti_da_Scutari%22_Gatteri%27s_Etching_of_the_Siege_of_Shkodra.jpg",
+          "imgDesc": "Sahne, İşkodra Kuşatması'nda Osmanlı kuvvetleri tarafından İşkodra Kalesi'ne yapılan beşinci ve en büyük saldırıyı gösteriyor, 1478–79",
+          "contentMain": [
+            "Bizans tarihçisi Michael Critobulus'a göre, Atina'nın Osmanlı komutanının Arnavut bir kölesinin efendisinin hazinesinden 100.000 gümüş asper ile Venedik kalesi Coron'a (Koroni) kaçmasından sonra düşmanlıklar patlak verdi. Kaçak daha sonra Hıristiyanlığa geçti, bu nedenle Osmanlı'nın onun teslimine yönelik talepleri Venedik yetkilileri tarafından reddedildi.",
+            "Kasım 1462'de bunu bir bahane olarak kullanarak, Orta Yunanistan'daki Osmanlı komutanı Turahanoğlu Ömer Bey, stratejik öneme sahip Venedik kalesi İnebahtı'ya (Nafpaktos) saldırdı ve neredeyse başardı. Ancak 3 Nisan 1463'te Mora valisi İsa Bey, Venedik'in elindeki Argos kasabasını ihanetle ele geçirdi.",
+            "Yeni ittifak, Osmanlılara karşı iki yönlü bir saldırı başlattı: Deniz Kaptanı General Alvise Loredan komutasındaki bir Venedik ordusu Mora'ya çıkarken Matthias Corvinus Bosna'yı işgal etti.[44] Aynı zamanda, II. Pius, onu bizzat yönetmeyi umarak Ancona'da bir ordu kurmaya başladı.[45] Karamanoğulları, Uzun Hasan ve Kırım Hanlığı gibi Osmanlı'nın diğer rakipleriyle de müzakerelere başlandı.",
+            "Ağustos ayının başlarında, Venedikliler Argos'u geri aldılar ve Korint Kıstağı'nı yeniden güçlendirdiler, Hexamilion duvarını restore ettiler ve onu birçok topla donattılar.[46] Daha sonra kuzeybatı Mora'yı kontrol eden Acrocorinth kalesini kuşatmaya başladılar. Venedikliler, 20 Ekim'de büyük bir bozguna uğrayana kadar, savunucular ve Ömer Bey'in güçleriyle tekrar tekrar çatışmalara girdiler ve ardından kuşatmayı kaldırıp Hexamilion'a ve Nauplia'ya (Nafplion) geri çekilmek zorunda kaldılar.[46] Bosna'da, Matthias Corvinus altmıştan fazla müstahkem yeri ele geçirdi ve 16 Aralık'ta 3 aylık bir kuşatmanın ardından başkenti Jajce'yi almayı başardı.",
+            "Osmanlı tepkisi hızlı ve kararlı oldu: II. Mehmed, Sadrazamı Mahmud Paşa Angelović'i bir orduyla Venediklilere karşı gönderdi. Sultan, Çanakkale Boğazı'nın girişinin dışında yer alan Venedik donanmasına karşı koymak için, Haliç'te yeni bir Kadırga Limanı tersanesinin (adını \"kadırga\" tipi kadırgadan almıştır) ve iki gemiden oluşan yeni bir tersanenin kurulmasını emretti. Boğazlar, Kilidulbahr ve Sultaniye'yi korumak için kaleler.[48] Mora seferi Osmanlılar için hızla galip geldi; Hexamilion'u yerle bir ettiler ve Mora'ya doğru ilerlediler. Argos düştü ve Venedik otoritesini tanıyan birkaç kale ve yerleşim yeri Osmanlı bağlılığına geri döndü.",
+            "Mahmud Paşa'yı takviye etmek için başka bir orduyla takip eden Sultan II. Mehmed, vezirinin başarısından haberdar olmadan önce Zeitounion'a (Lamia) ulaşmıştı. Hemen adamlarını kuzeye, Bosna'ya çevirdi.[48] Ancak, Sultan'ın Temmuz ve Ağustos 1464'te Jajce'yi geri alma girişimi, Osmanlıların Corvinus'un yaklaşan ordusu karşısında aceleyle geri çekilmesiyle başarısız oldu. Mahmud Paşa komutasındaki yeni bir Osmanlı ordusu daha sonra Corvinus'u geri çekilmeye zorladı, ancak Jajce yıllar sonra geri alınamadı.[47] Ancak Papa II. Pius'un 15 Ağustos'ta Ancona'da ölümü Haçlı Seferi'nin sonunu getirdi.",
+            "Bu arada Venedik Cumhuriyeti, yaklaşan 1464 seferi için Sigismondo Malatesta'yı atamıştı. O, Osmanlı kalelerine saldırılar başlattı ve Ağustos'tan Ekim'e kadar başarısız bir Mistra kuşatmasına girişti. Baskınlar ve karşı baskınlarla her iki tarafta da küçük çaplı savaşlar devam etti, ancak insan gücü ve para sıkıntısı, Venediklilerin büyük ölçüde müstahkem üslerinde sınırlı kalmasına ve Ömer Bey'in ordusu kırsalda dolaşmasına neden oldu.",
+            "Ege'de, Venedikliler 1464 baharında Midilli'yi almaya çalıştılar ve başkent Midilli'yi altı hafta boyunca kuşattılar, ta ki 18 Mayıs'ta Mahmud Paşa komutasındaki bir Osmanlı donanmasının gelişi onları geri çekilmeye zorlayana kadar.[50] Kısa bir süre sonra adayı ele geçirme girişimi de başarısız oldu. Venedik donanması yılın geri kalanını Çanakkale Boğazı'nın önünde sonuçsuz kalan güç gösterileriyle geçirdi.[50] 1465'in başlarında II. Mehmed Venedik Senatosu'na barış mesajları gönderdi; Padişahın güdülerine güvenmeyerek bunlar reddedildi.",
+            "Nisan 1466'da Venedik savaş çabası Vettore Cappello altında yeniden canlandırıldı: donanma kuzey Ege adaları İmroz, Taşoz ve Semadirek'i aldı ve ardından Saronik Körfezi'ne doğru yola çıktı.[52] 12 Temmuz'da Cappello Pire'ye çıktı ve Osmanlı'nın başlıca bölgesel üssü olan Atina'ya yürüdü. Akropolis'i almayı başaramadı ve Venedik ve Yunan ortak kuvvetleri tarafından kuşatılan Mora'nın başkenti ve Osmanlı beyinin oturduğu Patras'a çekilmek zorunda kaldı.[53] Cappello daha gelmeden ve şehir düşmek üzereyken, Ömer Bey 12.000 süvari ile birdenbire ortaya çıktı ve sayıca az olan kuşatmacıları püskürttü. Barbarigo'nun kendisi öldürülürken, 2.000 kişilik bir kuvvetten altı yüz Venedikli ve yüz Yunan esir alındı.[54] Birkaç gün sonra gelen Cappello, Osmanlılara saldırdı ancak ağır bir yenilgiye uğradı. Morali bozularak ordusunun kalıntılarıyla Negroponte'ye döndü. Orada Cappello hastalandı ve 13 Mart 1467'de öldü.[55] 1470'de Mehmed, bir Osmanlı ordusunu Negroponte'yi kuşatmak için bizzat yönetti. Venedik yardım donanması yenildi ve Negroponte ele geçirildi.",
+            "1466 baharında Sultan Mehmed büyük bir orduyla Arnavutlara karşı yürüdü. Liderleri İskender Bey zamanında Osmanlılara uzun süre direndiler ve defalarca İtalya'dan yardım istediler.[44] Mehmed, Arnavutluk'a karşı tekrar yürüyerek karşılık verdi, ancak başarısız oldu. Kış, her yıl tekrarlanacak ve yerel direnişin gücünü azaltacak bir veba salgını getirdi.[52] İskender Bey Venedik'in kalesi Lissus'ta (Lezhë) sıtmadan öldü ve Venedik'in Arnavut lordlarını kendi çıkarları için kullanma becerisine son verdi.[56] İskender Bey öldükten sonra, Venedik kontrolündeki bazı kuzey Arnavut garnizonları, en önemlileri olan Žabljak Crnojevića, Drisht, Lezhë ve Shkodra gibi Osmanlılar tarafından imrenilen toprakları elinde tutmaya devam etti. Mehmed, ordularını 1474[57]'de İşkodra'yı almak için gönderdi, ancak başarısız oldu. Daha sonra 1478-79 İşkodra kuşatmasına bizzat önderlik etti. Venedikliler ve İşkodralılar, saldırılara direndiler ve Venedik, savaşı sona erdirmek için Konstantinopolis Antlaşması'nda İşkodra'yı Osmanlı İmparatorluğu'na bırakana kadar kaleyi ellerinde tutmaya devam ettiler.",
+            "Anlaşma, Osmanlıların Venedik'in eteklerine ulaşması sonucunda kuruldu. Anlaşmanın şartlarına göre, Venediklilerin Ulcinj, Antivan ve Durrës'i elinde tutmasına izin verildi. Ancak, aylarca Osmanlı kuşatması altında olan İşkodra'yı ve Dalmaçya kıyılarındaki diğer toprakları teslim ettiler ve Yunan adaları Negroponte (Euboea) ve Lemnos'un kontrolünü bıraktılar. Ayrıca, Venedikliler Karadeniz'de ticaret ayrıcalıkları elde etmek için 100.000 dukalık tazminat ödemek zorunda kaldılar[58] ve yılda yaklaşık 10.000 dukalık bir haraç ödemeyi kabul ettiler. Bu anlaşmanın bir sonucu olarak Venedik, Levant'ta zayıflamış bir konum elde etti."
+          ]
+        },
+        {
+          "id": 9,
+          "contentHeader": "Anadolu fetihleri ​​(1464-1473)",
+          "panelId": "anadolufetihleri",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fetihname_Fatih.jpg/150px-Fetihname_Fatih.jpg",
+          "imgDesc": "Mehmed'in Otlukbeli Muharebesi Sonrası Fetihname'si",
+          "contentMain": [
+            "Orta Çağ'ın ikinci yarısında Selçuklular sonrası dönemde Anadolu'da topluca Anadolu beylikleri olarak bilinen çok sayıda Türkmen beyliği ortaya çıktı. Karamanoğulları başlangıçta Anadolu'nun en önemli gücü olan Karaman ve Konya'nın modern vilayetleri etrafında toplandılar. Ancak 14. yüzyılın sonlarına doğru Osmanlılar, Anadolu'nun çoğuna hakim olmaya başlayarak Karaman'ın nüfuzunu ve prestijini azalttı.",
+            "Karaman'ın hükümdarı Karamanlı II. İbrahim'in son yıllarında oğulları taht için mücadele etmeye başladı. Varisi Silifke Valisi Karamanlı İshak'tır. Ancak daha küçük bir oğul olan Pir Ahmet, kendisini Konya'da Karaman'ın beyi ilan etti. İbrahim batı topraklarında küçük bir şehre kaçtı ve 1464'te öldü. Taht için rekabet eden iddialar beylikte fetretle sonuçlandı.",
+            " Ancak Akkoyunlu Türkmenlerinin padişahı Uzun Hasan'ın da yardımıyla İshak tahta çıkmayı başardı. Ancak, Pir Ahmet'in yardım için Sultan II. Pir Ahmet, Osmanlı'nın yardımıyla Dağpazarı savaşında İshak'ı yendi. İshak, bilinmeyen bir tarihe kadar Silifke ile yetinmek zorunda kalmıştır.[60] Pir Ahmet verdiği sözü tuttu ve beyliğin bir kısmını Osmanlı'ya devretti, ancak kaybından rahatsız oldu. Böylece Batı'daki Osmanlı seferi sırasında eski topraklarını geri aldı. Ancak Mehmed geri döndü ve 1466'da hem Karaman'ı (Larende) hem de Konya'yı ele geçirdi. Pir Ahmet Doğu'ya zar zor kaçtı. Birkaç yıl sonra Osmanlı veziri (daha sonra sadrazam) Gedik Ahmet Paşa beyliğin kıyı bölgesini ele geçirdi.",
+            "Pir Ahmet ve kardeşi Kasım, Uzun Hasan'ın topraklarına kaçtı. Bu, Uzun Hasan'a müdahale etme şansı verdi. 1472'de Akkoyunlu ordusu Anadolu'nun çoğunu işgal etti ve baskın düzenledi (1473'te Otlukbeli Savaşı'nın arkasındaki neden buydu). Ancak daha sonra Mehmed, 1473'te Uzun Hasan'a karşı başarılı bir kampanya yürüttü ve bu da Osmanlı İmparatorluğu'nun Otlukbeli Muharebesi'nde kesin zaferiyle sonuçlandı. Bundan önce Pir Ahmet, Akkoyunlu'nun yardımıyla Karaman'ı ele geçirmişti. Ancak Pir Ahmet bir dönem daha yaşayamadı. Zira Karaman'ın alınmasından hemen sonra Akkoyunlu ordusu Beyşehir yakınlarında Osmanlılara yenilmişti ve Pir Ahmet bir kez daha kaçmak zorunda kalmıştı. Mücadelesini sürdürmeye çalışsa da aile fertlerinin Gedik Ahmet Paşa tarafından İstanbul'a nakledildiğini öğrenince sonunda pes etti. Morali bozularak Akkoyunlu topraklarına kaçtı ve burada Bayburt'ta kendisine tımar verildi. 1474'te öldü.",
+            "Anadolu beyliklerinin birleştirilmesi ilk olarak II. Mehmed'den elli yıldan fazla bir süre önce Sultan I. Bayezid tarafından sağlandı, ancak 1402'deki yıkıcı Ankara Savaşı'ndan sonra yeni kurulan birlik ortadan kalktı. Mehmed, Osmanlı'nın diğer Türk devletleri üzerindeki gücünü yeniden kazandı ve bu fetihler onun Avrupa'ya daha fazla girmesine izin verdi.",
+            "Mehmed'in Doğu politikasını şekillendiren bir diğer önemli siyasi oluşum Ak Koyun Türkmenleridir. Uzun Hasan'ın önderliğinde bu krallık Doğu'da güç kazanmış; ancak Trabzon İmparatorluğu ve Venedik Cumhuriyeti gibi Hıristiyan güçlerle olan güçlü ilişkileri ve Türkmenler ile Karamanoğulları aşiretinin ittifakı nedeniyle Mehmed bunları kendi iktidarı için bir tehdit olarak gördü."
+          ]
+        },
+        {
+          "id": 10,
+          "contentHeader": "Moldova ile Savaş (1475-1476)",
+          "panelId": "moldovailesavas",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Paolo_Veronese_%28Nachfolger%29_-_Sultan_Mohammed_II._%281451_-_1481%29_-_2247_-_Bavarian_State_Painting_Collections.jpg/220px-Paolo_Veronese_%28Nachfolger%29_-_Sultan_Mohammed_II._%281451_-_1481%29_-_2247_-_Bavarian_State_Painting_Collections.jpg",
+          "imgDesc": "İkinci Mehmed, Paolo Veronese'nin portresi",
+          "contentMain": [
+            "1456'da III. Peter Aaron, güney sınırlarını güvence altına almak için Osmanlılara yıllık 2.000 altın duka haraç ödemeyi kabul etti ve böylece Türk taleplerini kabul eden ilk Moldova hükümdarı oldu.[63] Halefi Büyük Stephen, Osmanlı egemenliğini reddetti ve bir dizi şiddetli savaş başladı.[64] Stephen, Wallachia'yı kendi etki alanı altına almaya çalıştı ve böylece Wallachian tahtı için kendi seçimini destekledi.",
+            "Bu, Macarlar, Osmanlılar ve Stephen tarafından desteklenen farklı Wallachian hükümdarları arasında kalıcı bir mücadele ile sonuçlandı. 1475'te Hadım Paşa (Rumeli valisi) komutasındaki bir Osmanlı ordusu, Eflak'a karıştığı için Stephen'ı cezalandırmak için gönderildi; ancak Osmanlılar, Vaslui Savaşı'nda büyük bir yenilgiye uğradılar.",
+            "Stephen, \"İslam'a karşı Haç tarafından şimdiye kadar elde edilen en büyük savaş\" olarak tanımlanan Osmanlılara, Venedik ve Polonya kayıtlarına göre, Osmanlı tarafında 40.000'i aşan kayıplarla kesin bir yenilgi verdi. Murad'ın eski genç karısı Mara Brankoviç (Mara Hatun), bir Venedik elçisine işgalin Osmanlılar için şimdiye kadarki en kötü yenilgi olduğunu söyledi. Stephen daha sonra Papa IV. Sixtus tarafından \"Athleta Christi\" (İsa'nın Şampiyonu) unvanını aldı ve ona \"verus christianae fidei athleta\" (\"Hıristiyan inancının gerçek savunucusu\") olarak atıfta bulundu. Mehmed büyük bir ordu topladı ve Haziran 1476'da Boğdan'a girdi. Bu arada, Kırım Hanlığı'ndan (Osmanlıların son müttefiki) Tatar grupları Boğdan'a saldırmak için gönderildi. Rumen kaynakları püskürtüldüklerini belirtebilirler.Diğer kaynaklar, Osmanlı ve Kırım Tatar güçlerinin ortak Besarabya'yı işgal ettiğini ve Akkerman'ı alarak Tuna'nın güney ağzının kontrolünü ele geçirdiğini.",
+            "Sonunda Stephen savaşta Osmanlılarla karşılaştı. Boğdanlılar, ana Osmanlı kuvvetlerini ateşe verilen bir ormana çekerek bazı kayıplara neden oldu. Başka bir muharebe tarifine göre, savunan Boğdan kuvvetleri birkaç Osmanlı saldırısını tabancalardan sürekli ateş ederek püskürttü.[67] Saldıran Türk Yeniçeriler, savunma pozisyonlarına kafa üstü hücum etmek yerine karınları üzerinde çömelmeye zorlandı. Kuvvetlerinin yakın yenilgisini gören Mehmed, Boğdanlara karşı kişisel muhafızıyla görevlendirildi, Yeniçerileri toplamayı başardı ve savaşın gidişatını değiştirdi. Türk Yeniçeriler ormanın içine girdi ve savunucuları adam adama mücadeleye soktu.",
+            "Moldova ordusu tamamen yenildi (her iki tarafta da kayıplar çok yüksekti) ve vakayinameler tüm savaş alanının ölülerin kemikleriyle kaplı olduğunu söylüyor, bu yer adı için muhtemel bir kaynak (Valea Albă Rumence ve Akdere Türkçesi \"Beyaz Vadi\").",
+            "Büyük Stephen, Moldavya'nın kuzeybatı kısmına, hatta Polonya Krallığı'na[68] çekildi ve başka bir ordu kurmaya başladı. Osmanlılar, Moldova'nın önemli kalelerinden hiçbirini (Suceava, Neamț, Hotin)[65] fethetmeyi başaramadılar ve sürekli olarak küçük çaplı Moldavyalı saldırılarının tacizine uğradılar. Kısa süre sonra, bir veba salgınıyla daha da kötüleşen bir durum olan açlıkla da karşı karşıya kaldılar ve Osmanlı ordusu Osmanlı topraklarına geri döndü. Stephen'ın Wallachia'ya tehdidi onlarca yıl devam etti. Aynı yıl Stephen, kuzeni Kazıklı Kazıklı Vlad'ın üçüncü ve son kez Eflak tahtına dönmesine yardım etti. Birkaç ay sonra Vlad'ın zamansız ölümünden sonra bile Stephen, Mehmet'in ölümünden sonra Eflak tahtının çeşitli yarışmacılarını silah zoruyla desteklemeye devam etti ve 1482'den 13 yıl boyunca Kazıklı Vlad'ın üvey kardeşi Vlad Călugărul'u görevlendirdi. 1495'e kadar."
+          ]
+        },
+        {
+          "id": 11,
+          "contentHeader": "Arnavutluk'un fethi (1466-1478)",
+          "panelId": "arnavutlukunfethi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Gjergj_Kastrioti.jpg/220px-Gjergj_Kastrioti.jpg",
+          "imgDesc": "Lezha Birliği prensi İskender Bey'in portresi",
+          "contentMain": [
+            "Arnavut soylularının bir üyesi ve Osmanlı yönetici seçkinlerinin eski bir üyesi olan İskender Bey, İskender Bey'in Osmanlı İmparatorluğu'nun Avrupa'ya genişlemesine karşı isyanına öncülük etti. Gjon Kastrioti'nin (1432-1436'daki başarısız Arnavut isyanına katılmış olan) oğlu Skanderbeg, Arnavut prensliklerini 1444'te askeri ve diplomatik bir ittifak olan Lezhë Ligi'nde birleştirdi.",
+            "II. Mehmed, Arnavutluk'u boyun eğdirme çabalarında hiçbir zaman başarılı olmadı. İskender Bey hayattayken, iki kez (1466 ve 1467) Osmanlı ordularını Krujë'ye karşı bizzat komuta etmesine rağmen. İskender Bey 1468'de öldükten sonra, Arnavutlar onun yerini alacak bir lider bulamadılar ve II. Mehmed sonunda 1478'de Krujë ve Arnavutluk'u fethetti.",
+            "1466 baharında Sultan Mehmed büyük bir orduyla İskender Bey ve Arnavutlara karşı yürüdü. Skanderbeg defalarca İtalya'dan yardım istedi[44] ve devam eden Osmanlı-Venedik Savaşı'nın (1463-1479) Arnavut bağımsızlığını yeniden ilan etmek için altın bir fırsat sunduğuna inanıyordu; Venedikliler için Arnavutlar, Venedik kıyılarındaki Durrës (İtalyanca: Durazzo) ve Shkodër (İtalyanca: Scutari) için yararlı bir koruma sağladılar. Bu kampanyanın en önemli sonucu, iddiaya göre sadece 25 gün içinde Elbasan kalesinin inşası oldu. Eski Via Egnatia'nın sonuna yakın ovalarda, stratejik olarak yerleştirilmiş bu kale, Arnavutluk'u etkili bir şekilde yarıya indirdi ve İskender Bey'in kuzey yaylalardaki üssünü güneydeki Venedik holdinglerinden izole etti.[56] Ancak, Sultan'ın geri çekilmesinin ardından İskender Bey kışı İtalya'da yardım arayarak geçirdi.",
+            "1467 başlarında dönüşünde, kuvvetleri yaylalardan saldırdı, Ballaban Paşa'yı yendi ve Croia (Krujë) kalesinin kuşatmasını kaldırdı; onlar da Elbasan'a saldırdılar ama onu ele geçiremediler.[69][70] Mehmed, tekrar Arnavutluk üzerine yürüyerek karşılık verdi. Arnavut kalelerine yönelik saldırıları enerjik bir şekilde sürdürürken, onları izole etmek için Venedik mülklerine baskın yapmak üzere müfrezeler gönderdi.[69] Osmanlılar yine Croia'yı almayı başaramadılar ve ülkeye boyun eğdiremediler. Ancak kış, her yıl tekrarlanacak ve yerel direnişin gücünü azaltacak bir veba salgını getirdi.[52] İskender Bey Venedik'in kalesi Lissus'ta (Lezhë) sıtmadan öldü ve Venedik'in Arnavut lordlarını kendi çıkarları için kullanma becerisine son verdi.[56] Arnavutlar kendi hallerine bırakıldılar ve sonraki on yıl içinde kademeli olarak boyun eğdirildiler.",
+            "İskender Bey öldükten sonra, II. Mehmed, 1478-79'da İşkodra kuşatmasına bizzat önderlik etti. daha iyi kaynak gerekli] Venedikliler ve İşkodralılar saldırılara direndiler ve Venedik, savaşı sona erdirmek için Konstantinopolis Antlaşması'nda İşkodra'yı Osmanlı İmparatorluğu'na bırakana kadar kaleyi ellerinde tutmaya devam ettiler."
+          ]
+        },
+        {
+          "id": 12,
+          "contentHeader": "Kırım politikası (1475)",
+          "panelId": "kirimpolitikasi",
+          "imgUrl": "",
+          "imgDesc": "",
+          "contentMain": [
+            "Toplu olarak Kırım Tatarları olarak bilinen bir dizi Türk halkı, Orta Çağ'ın başlarından beri yarımadada yaşıyordu. Altınordu'nun 15. yüzyılın başlarında Timur tarafından yıkılmasından sonra, Kırım Tatarları, Cengiz Han'ın soyundan gelen Hacı I Giray'ın altında bağımsız bir Kırım Hanlığı kurdu.",
+            "Kırım Tatarları Kuban'dan Dinyester Nehri'ne kadar uzanan bozkırları kontrol etmişlerdi, ancak 1357'den beri Ceneviz kontrolü altında olan Gazaria (Ceneviz kolonileri) adı verilen ticari Ceneviz kasabalarını kontrol edemiyorlardı. Konstantinopolis'in fethinden sonra, Ceneviz haberleşmesi kesintiye uğrayan Kırım Tatarları, Osmanlı'dan yardım istediğinde, 1475'te Gedik Ahmed Paşa liderliğindeki Ceneviz kasabalarını işgal ederek Kaffa ve diğer ticaret kasabalarını kontrol altına alarak karşılık verdiler.",
+            "Ceneviz kasabalarının ele geçirilmesinden sonra, Osmanlı Padişahı I. Menli Giray'ı esir tuttu,[73] daha sonra Kırım Hanları üzerindeki Osmanlı egemenliğini kabul etmesi ve onların Osmanlı İmparatorluğu'nun haraç prensleri olarak yönetmelerine izin vermesi karşılığında onu serbest bıraktı.[72] Bununla birlikte, Kırım hanları hala Osmanlı İmparatorluğu'ndan büyük miktarda özerkliğe sahipken, Osmanlılar güney kıyılarını doğrudan kontrol ediyordu."
+          ]
+        },
+        {
+          "id": 13,
+          "contentHeader": "İtalya seferi (1480)",
+          "panelId": "italyaseferi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mehmed_II_%281432-1481%29.jpg/220px-Mehmed_II_%281432-1481%29.jpg",
+          "imgDesc": "Bertoldo di Giovanni tarafından Fatih Sultan Mehmed'in bronz madalyası, 1480",
+          "contentMain": [
+            "Gedik Ahmed Paşa komutasındaki bir Osmanlı ordusu 1480'de İtalya'yı işgal ederek Otranto'yu ele geçirdi. Yiyecek sıkıntısı nedeniyle, Gedik Ahmed Paşa, birliklerinin çoğuyla Arnavutluk'a döndü ve İtalya'da Otranto'yu savunmak için 800 piyade ve 500 süvariden oluşan bir garnizon bıraktı. Kıştan sonra döneceği tahmin ediliyordu.",
+            "Konstantinopolis'in düşüşünden sadece 28 yıl sonra, Roma'nın da aynı kaderi paylaşacağından korktular. Papa ve Roma vatandaşlarının şehri boşaltması için planlar yapıldı. Papa Sixtus IV, 1481'de yaptığı haçlı seferi çağrısını tekrarladı. Birkaç İtalyan şehir devleti, Macaristan ve Fransa temyize olumlu yanıt verdi. Ancak Venedik Cumhuriyeti, 1479'da Osmanlılarla pahalı bir barış anlaşması imzaladığı için bunu yapmadı.",
+            "1481'de Napoli Kralı I. Ferdinand, oğlu Napoli Kralı II. Alphonso'nun önderlik edeceği bir ordu kurdu. Macaristan kralı Matthias Corvinus tarafından bir birlik birliği sağlandı. 1 Mayıs 1481'den itibaren şehir kuşatıldı. Mehmed'in 3 Mayıs'ta ölümünün ardından, halefiyetiyle ilgili çıkan tartışmalar, Osmanlıların Otranto'ya takviye kuvvet göndermesini muhtemelen engelledi. Böylece Otranto'nun Türk işgali, Hıristiyan güçlerle müzakere edilerek Türklerin Arnavutluk'a çekilmesine izin vererek sona erdi ve Otranto 1481'de Papalık güçleri tarafından geri alındı."
+          ]
+        },
+        {
+          "id": 14,
+          "contentHeader": "Konstantinopolis'in Yeniden Nüfusu (1453-1478)",
+          "panelId": "konstantinopolisinyeniden",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Fatih_Camii_1888-1910_y%C4%B1llar%C4%B1.jpg/220px-Fatih_Camii_1888-1910_y%C4%B1llar%C4%B1.jpg",
+          "imgDesc": "İstanbul'da Sultan II. Mehmed'in emriyle yaptırılan, Osmanlı'nın fethinden sonra şehirde inşa edilen ilk imparatorluk camisi Fatih Camii'nin tarihi fotoğrafı.",
+          "contentMain": [
+            "Mehmed, Konstantinopolis'i fethettikten sonra, nihayet şimdi Topkapı Kapısı olarak bilinen kapıdan şehre girdiğinde, hemen atını Ayasofya'ya sürdü ve burada yapının korunmasını emretti. Orada bir imamın Müslüman İtikadını zikretmek için onunla buluşmasını emretti: \"Allah'tan başka ilah olmadığına şehadet ederim.",
+            " Muhammed'in Allah'ın elçisi olduğuna şehadet ederim.\" Ortodoks katedrali Müslüman bir camiye dönüştürülmüştür. bir hayır kurumu aracılığıyla, Konstantinopolis'te İslami yönetimi sağlamlaştırdı.",
+            "Mehmed'in Konstantinopolis'le ilgili temel kaygısı, şehrin savunmasını yeniden inşa etmek ve yeniden nüfus oluşturmaktı. Fetihten hemen sonra surların onarımı, kale inşaatı, öğrenci ve sağlık personeli ile dikkat çekici bir hastane, büyük bir kültür kompleksi, yeniçeriler için iki set kışla, Galata dışında bir tophane tabancası dökümhanesini içeren inşaat projelerine başlandı. ve yeni bir saray inşa etmek.[76][77] Şehrin ticaret bölgesi Galata'dan kaçan Yunanlıların ve Cenevizlilerin geri dönüşlerini teşvik etmek için evlerini geri verdi ve onlara güvenlik garantisi verdi. Mehmed, imparatorluğu genelinde Müslümanların, Hıristiyanların ve Yahudilerin Şehir'e yeniden yerleşmeleri ve Eylül ayına kadar beş bin hanenin Konstantinopolis'e nakledilmesi gerektiğini emretti.[76] İslam imparatorluğunun dört bir yanından şehre savaş esirleri ve sürgünler gönderildi; bu insanlara Türkçe'de \"Sürgün\" (Yunanca: σουργούνιδες sourgounides; \"göçmenler\") denirdi.",
+            "Mehmed, Ekümenik Ortodoks Patrikhanesini (6 Ocak 1454) restore etti, keşiş Gennadios ilk Ortodoks Patrik olarak atandı[79] ve milletin bir parçası olarak başkentte bir Yahudi Büyük Hahamlığı (Hahambaşı) ve prestijli Konstantinopolis Ermeni Patrikhanesini kurdu. sistem. Ayrıca, Sadrazam Rum Mehmed Paşa tarafından yaptırılan Rum Mehmed Paşa Camii gibi Konstantinopolis'in ana semtlerinde bir dizi Müslüman kurum ve ticaret tesisi kurdu ve vezirlerini teşvik etti. Bu çekirdeklerden metropol hızla gelişti. 1478'de yapılan bir araştırmaya göre, o zamanlar Konstantinopolis ve komşu Galata'da 16.324 hane, 3.927 dükkan ve tahmini 80.000 nüfus vardı.[80] Nüfusun yaklaşık %60'ı Müslüman, %20'si Hıristiyan ve %10'u Yahudi idi.",
+            "Mehmed'in hırslı yeniden inşa programı, saltanatının sonunda, şehri gelişen bir imparatorluk başkentine dönüştürmüştü.[14] Çağdaş Osmanlı tarihçisi Neşri'ye göre, \"Sultan Mehmed bütün İstanbul'u yarattı\"[14]. Elli yıl sonra, Konstantinopolis yeniden Avrupa'nın en büyük şehri olmuştu.",
+            "İki yüzyıl sonra, ünlü Osmanlı gezgini Evliya Çelebi, şehre tanıtılan grupların kökenleriyle birlikte bir listesini verdi. Bugün bile İstanbul'un Aksaray ve Çarşamba gibi birçok mahallesi, sakinlerinin geldikleri yerlerin adlarını taşımaktadır.[78] Ancak, birçok kişi tekrar şehirden kaçtı ve birkaç veba salgınları oldu, böylece Mehmed 1459'da tehcir edilen Rumların şehre geri dönmesine izin verdi.[78] Fransız gezgin Pierre Gilles 16. yüzyılın ortalarında Konstantinopolis'teki Yunan nüfusunun camiye dönüştürülmüş veya terk edilmiş eski Bizans kiliselerinden hiçbirinin adını veremediğini yazdığı için, bu önlem görünüşte pek başarılı olmadı. Bu, nüfus ikamesinin toplam olduğunu gösterir."
+          ]
+        },
+        {
+          "id": 14,
+          "contentHeader": "Kaynakçalar",
+          "panelId": "kaynakcalar",
+          "imgUrl": "",
+          "imgDesc": "",
+          "contentMain": [
+            "https://en.wikipedia.org/wiki/Mehmed_the_Conqueror#Repopulation_of_Constantinople_(1453%E2%80%931478)",
+            "https://tr.wikipedia.org/wiki/II._Mehmed"
+          ]
+        }
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Gentile_Bellini_003.jpg/1200px-Gentile_Bellini_003.jpg",
+      "photos": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Gentile_Bellini_003.jpg/220px-Gentile_Bellini_003.jpg"
+      ],
+      "signature": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tughra_of_Mehmed_II.svg/125px-Tughra_of_Mehmed_II.svg.png",
+      "wikipedia": "https://tr.wikipedia.org/wiki/II._Mehmed"
+    },
+    {
+      "id": 2,
+      "name": "I. Orhan",
+      "age": 81,
+      "date": "(1281 - 1362)",
+      "heading": "Orhan Gazi",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [
+        "Orhan, saltanatının ilk aşamalarında enerjisini kuzeybatı Anadolu'nun çoğunu fethetmeye odakladı. Bu bölgelerin çoğu Bizans egemenliğindeydi ve Pelekanon'da Bizans İmparatoru III. Andronikos Paleologos'a karşı ilk savaşını kazandı. Orhan ayrıca Balıkesir'in Karasid ve Ankara Ahiler'in topraklarını da işgal etti."
+      ],
+      "cardDescriptions": [
+        {
+          "id": 1,
+          "tag": "",
+          "explain": [
+            "Orhan Gazi'nin 16. yüzyıl Osmanlı minyatürü"
+          ]
+        },
+        {
+          "id": 2,
+          "tag": "",
+          "explain": [
+            "2. Osmanlı Padişahı"
+          ]
+        },
+        {
+          "id": 3,
+          "tag": "Hüküm Süresi:",
+          "explain": [
+            "1324 – Mart 1362"
+          ]
+        },
+        {
+          "id": 4,
+          "tag": "Önce Gelen:",
+          "explain": [
+            "Osman Gazi"
+          ]
+        },
+        {
+          "id": 5,
+          "tag": "Sonra Gelen:",
+          "explain": [
+            "I. Murad"
+          ]
+        },
+        {
+          "id": 6,
+          "tag": "Doğum:",
+          "explain": [
+            "1281 Söğüt"
+          ]
+        },
+        {
+          "id": 7,
+          "tag": "Ölüm:",
+          "explain": [
+            "1362 (80-81 yaşlarında) Bursa, Osmanlı Devleti"
+          ]
+        },
+        {
+          "id": 8,
+          "tag": "Defin:",
+          "explain": [
+            "Gümüşlü Kümbet, Bursa Orhan Gazi Türbesi"
+          ]
+        },
+        {
+          "id": 9,
+          "tag": "Eş(ler)i:",
+          "explain": [
+            "Asporça Hatun",
+            "Nilüfer Hatun",
+            "Theodora Hatun",
+            "Eftandise Hatun"
+          ]
+        },
+        {
+          "id": 10,
+          "tag": "Çocuk(lar)ı:",
+          "explain": [
+            "Süleyman Paşa",
+            "I. Murad",
+            "Şehzade İbrahim",
+            "Şehzade Halil",
+            "Şehzade Sultan",
+            "Şehzade Kasım",
+            "Şehzade Eyüp",
+            "Fatma Hatun",
+            "Hatice Hatun"
+          ]
+        },
+        {
+          "id": 11,
+          "tag": "Tam İsmi:",
+          "explain": [
+            "Orhan bin Osman"
+          ]
+        },
+        {
+          "id": 12,
+          "tag": "Hanedan:",
+          "explain": [
+            "Osmanlı Hanedanı"
+          ]
+        },
+        {
+          "id": 13,
+          "tag": "Babası:",
+          "explain": [
+            "Osman Gazi"
+          ]
+        },
+        {
+          "id": 14,
+          "tag": "Annesi:",
+          "explain": [
+            "Malhun Hatun"
+          ]
+        },
+        {
+          "id": 15,
+          "tag": "Dini:",
+          "explain": [
+            "İslam"
+          ]
+        }
+      ],
+      "contents": [
+        {
+          "id": 1,
+          "contentHeader": "Orhan Gazi",
+          "panelId": "orhangazi",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/SultanorhanI.png/237px-SultanorhanI.png",
+          "imgDesc": "Orhan Bey",
+          "contentMain": [
+            "Menâkıb-ı Orhânî adlı çağdaş kroniğe göre, Orhan Bey 1280/1281 yılında doğmuş ve 80 yıl yaşamıştır.[13] Daha sonraki kaynakların bir kısmında doğum tarihi 1281 olarak verilmekle beraber, doğum tarihini 1274, 1279, 1287 olarak veren kaynaklar vardır.",
+            "Osmanoğullarının en uzun ömürlüsü olan Orhan Bey'in çocukluğu ve gençliği bilinmemektedir. Nasıl yetiştiği, nasıl eğitim aldığı, hatta okur yazar olup olmadığı bilinmemektedir. Osmanlı tarihlerinde adının ilk geçişi 1298'de Nilüfer Hatun (Yarhisar Tekfuru kızı Holofira) ile evlendirilmesi nedeniyle olmuştur. 1300'de Köprühisar'ın fethinde bulunmuş ve Karacahisar uç beyliği verilmiştir. Osman Bey oğlunu emir-i kebir (beylerbeyi) rütbesi ile küçük beylik ordusuna komutan atamış ve bundan sonraki babasının her askerî eylemine katılmıştır.",
+            "Beyliğe babasının sağlığında mı yoksa ölümünden sonra mı geçtiği konusu tartışmalıdır.[1][2]Bizans tarihçisi Laonikos Halkokondiles, kaynak göstermeden, babası ölünce oğlu Orhan'ın Uludağ'a çekildiğini ve sonra yanına asker toplayarak kardeşlerini alt ettiğini bildirir.[1][2][14] Orhan Bey İlk Osmanlı tarihçilerinden İbn-i Kemal tarihinde Orhan Bey'in ahi liderlerinin kararı ile bey olduğunu bildirmekte ve \"Ru'us-i hadem ve vücuh, Uluğ oğlu Orhan'i riyasete lâyik gördűler\" demektedir.",
+            "Aşıkpaşazade, Oruç Bey, Nesri gibi ilk Osmanlı tarihçileri ve geleneksel kabul edilen anlatıma göre Beylik ileri gelenleri ve Osman Bey'in çocukları Osman Bey'in ölümü ardından bir toplantı yapmışlar; bu toplantıda Orhan Bey kardeşi Alaaddin'in Bey olmasını önermiş ama Alaaddin bunu kabul etmeyip, kardeşi Orhan'ın askerî başarılarından dolayı, devlet ileri gelenlerinin uygun gördüğü gibi küçük kardeşi Orhan'ı Beylik tahtına münasip gördüğünü ifade etmiş ve böylece Orhan tahta geçmiştir.",
+            "Adına kesilen ilk Osmanlı akçe sikkesi Rebievvel 724 (Şubat 1324) tarihi taşımakta ve Orhan'ın en geç bu tarihte Bey olduğuna kanıt sağlamaktadır.Osmanlı'nın ilk tapu senedini Miladi 1301 yılında Orhangazi; Şeyh İzzeddin İsmail'e Sakarya Akova'daki Çalıca ve Şehler Köyü vakıf tapusunu vermiştir.Orhan Gazi'ye bey olduktan sonra \"Şücaeddin\", \"İhtiyareddin\" ve \"Seyfeddin\" sanları verilmiştir. Adına tuğra çekilen ilk Osmanlı beyidir."
+          ]
+        },
+        {
+          "id": 2,
+          "contentHeader": "Anadolu'da fetihler",
+          "panelId": "anadoludafetihler",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Orhan_Gazi_-_Manyal_Palace_Museum.jpg/237px-Orhan_Gazi_-_Manyal_Palace_Museum.jpg",
+          "imgDesc": "Sultan Orhan Gazi",
+          "contentMain": [
+            "Orhan Bey'in beylik yıllarının ilk dönemi Anadolu'da fetihlerle geçmiştir. Beyliği sırasında bütün diğer Anadolu beylikleri gibi İran'da kurulu İlhanlılar'ı metbu sayıp yıllık vergi ödemekte devam etmiştir. Diğer yandan da Bizans topraklarına yönelik akınlar ve fetihlerle Osmanlı Beyliği daha güç kazanmıştır.",
+            "Orhan Bey 1321'de Mudanya'yı fethederek beyliğini Marmara Denizi kıyısına ulaştırmıştır. 1323 yılında Gebze de kendi adında camii yaptırmıştır. 1321 ve 1326'ya kadar Gazi komutanlar emri altında Osmanlı beylik birlikleri beylik sınırlarına sevkedilmiş; Konur Alp Batı Karadeniz dolaylarına, Akça Koca İzmit dolaylarına, Abdurrahman Gazi Yalova (Yalakabad) dolaylarına akınlar yaparak Yalova, Akyazı, Mudurnu, Pazaryeri (Ermenipazarı), Sapanca (Ayangölü), Kandıra, Samandra fetihleri yapılmıştır.",
+            "1326'da hedef, bölgenin en büyük merkezi olan ve yıllardır abluka altında tutulan Bursa kenti olmuştur. Önce Orhaneli (o zaman Adranos) kalesi alınmış ve yıkılmış; sonra Bursa hisarını kuşatmak üzere Pınarbaşı mevkiinde karargâh kurulmuştur. Fakat Köse Mihal Bey'in diplomatik çabaları sonucu kale muhafızı Evranos kaleyi savaşsız teslim etmiştir. Köse Mihal Bey ve Evranos Bey'in Müslüman olup Orhan Bey'in hizmetinde akıncı beyleri olarak görev yapmaları ve bu misyonu kendi soydaşlarına devretmeleri Osmanlılık kimliği yaratma siyasetinin ilk başarılı sonuçlarıdır. Bir vekayiname Bursa alınışını 2 Cemazievvel 726 (6 Nisan 1326) olarak vermektedir. Fakat elde bulunan bazı, Orhan Gazi adına Bursa'da basılı olduğu gösterilen akçe sikkeleri daha önceki tarihleri göstermektedir. Genel olarak Osmanlı tarihçiler Bursa'nın alınması ile Orhan Gazi tarafından başkent yapıldığını bildirirler.",
+            "Sonraki yıllarda Orhan Bey'in gazi komutanları akıncıları ile Kocaeli topraklarında ilerlemişler; Kartal ve Aydos kalelerini fethetmişler ve Boğaz kıyılarında görülmüşlerdir.Mayıs 1329'da Bizans imparatoru olan III. Andronikos ve yakın danışmanı (sonra imparator olan) İoannis Kantakuzinos 2.000 paralı asker ile takviyeli bir Bizans ordusu ile Kocaeli'nde ilerlemiş; İzmit kuşatması yapan ise Orhan Gazi ivedi yürüyüşle Darıca üzerinden gelmiş; ve ilk defa bir meydan savaşı olarak Bizans ve Osmanlı orduları 11 Haziran 1329'da Maltepe (Palekanon) Savaşı'na girişmişlerdir. Bu savaşta Bizans ordusu Osmanlı ordusuna yenik düşüp bozguna uğramış ve Bizans İmparatoru III. Andronikos yaralı olarak kurtulmuştur. Böylece III. Andronikos'un Bizans Anadolu topraklarını geri alma planları suya düşmüştür ve Bizanslılar bir daha böyle planlara girişmemişlerdir.",
+            "Orhan Bey'in bu askerî zaferi sonucu olarak bütün Hristiyanlar için ana itikat prensibi sağlayan \"Nicea İtikadı\"'nin 325'te kabul edildiği şehir olan ve Bizans Konstantinopolis'i Latinlerin elinden alıp kurtaran İznik İmparatorluğu'nun başkenti olmuş olan İznik (Nicea) 2 Mart 1331'de hiç direniş görünmeden fethedilmiştir.[18] Orhan Bey ve yakınları tarafından yapılan imar çalışmaları çok kısa bir zamanda İznik bir Osmanlı kültür, ticaret ve sanat merkezi olan bir İslam şehrine döndürmüştür. Özellikle Orhan Bey İznik büyük katedralini camiye ve bir manastırı medreseye çevirtmiş; eşi Nilüfer Hatun bir imaret yaptırmış; oğlu Süleyman Paşa ise yeni bir medrese inşa ettirmiştir.",
+            "İznik'te imar faaliyetleri devam etmekteyken Kara Timurtaş Paşa Marmara'nın Gemlik ve Armutlu kıyılarını Osmanlı sınırlarına katmıştır. Sonra daha eski klasik Roma İmparatorluğu'nun (284 ve civarında) başkentliğini yapmış olan ve 6 yıldır Osmanlı ablukası altında bulunan İzmit (Nikomedia) 1337'de Bizans tarafından savunulamaz duruma gelmiş; son Bizans valisi Prenses Marika Paleialogos tarafından terkedilip Osmanlı orduları tarafından fethedip yönetimi Süleyman Paşa'ya verilmiştir.",
+            "Bunun üzerine III. Andronikos 1333'te Osmanlı hükümdarı Orhan Bey'e bir barış anlaşması teklif etmiş ve yıllık 12.000 Bizans altını haraç karşılığında Bitinya'da Bizans elinde kalmış olan arazilere Osmanlı'ları hücum etmemesini teklif etmiştir. Böylece Orhan Bey'in Anadolu'da küffardan fethedeceği önemli bir yer kalmamıştır.Orhan Bey bu nedenle 1340'lı yıllarda beyliğini yeni bir strateji olan komşu Türkmen beyliklerin fethine yöneltmiştir. ",
+            "Önce Karesi Beyliğinde hükümdarlık kavgasına geçen Demirhan Bey ile Dursun Bey'in arasını bulmak nedeniyle Orhan Bey 1342'de Ulubad, Karacabey (Mihaliç) ve Mustafakemalpaşa (Kırmastı) kalelerini işgal etmiştir. Bununla da yetinmeyerek önemli bir askerî kuvvetle 1345'te Karesi Seferi'ne çıkmıştır. Bu iki kavgalı bey Bergama'da sıkıştırılmış; Dursun Bey kuşatma sırasında ölmüş; Demirhan Bey esir olarak alınmıştır. Böylelikle Karesi Beyliğine ait geniş topraklar ve Balıkesir, Manyas, Edincik ve Erdek kentleri Orhan Bey idaresine geçmiştir.Sonra İç Anadolu'ya akınlar başlamıştır. Bu akınlar 1354'te Gerede ve Osmanlılara kuruluştan beri destek sağlayan Ahilerinin merkezi Ankara kalelerinin Orhan Bey'in eline geçmesi ile sonuçlanmıştır. "
+          ]
+        },
+        {
+          "id": 3,
+          "contentHeader": "Rumeli'ye Geçiş",
+          "panelId": "rumeliyegecis",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Orhan_I_area_map.png/220px-Orhan_I_area_map.png",
+          "imgDesc": "Orhan Bey zamanında yaklaşık 1335'e kadar Osmanl Beyliği'nin genişlemesi",
+          "contentMain": [
+            "Orhan Bey'in hükümdarlığının son döneminde yeni bir strateji ortaya çıkmıştır. Bu strateji Bizans'a yardım etme vesilesiyle Rumeli'ye Osmanlı askeri gönderilmesi ile başlayıp; Osmanlıların ve Türklerin Rumeli'de toprak edinip şehirlere de yerleşmesi ve yeni bir küffar elinden toprak fethetme sürecinin (sonucunda ta orta Avrupa'ya uzanacak olan sürecin) başlaması ile devam etmiştir.",
+            "Orhan Bey'in Bizans'a yardım etmesi, bir iç isyan sonrası imparatorluk tahtına geçen VI. İoannis'la kurulan yakın ilişkilerle başlamıştır. 1344'te Bizans İmparatoru zor bir durumda bulunuyordu. Selanik'teki valisi olan İoannis Apokaukos duruma hakim olamamış ve bağnaz fanatik'ler (Selanikli Zealotlar) olarak anılan bir parti tekrar idareyi eline almıştı. Sırp Kralı IV. Stefan Duşan tekrar Bizans aleyhine dönmüş ve tüm Makedonya'yı istila etmek niyetiyle Serez kalesini kuşatma altına almıştı. Anadolu'da müttefiki olan ve daha önce askerî yardım sağlayan Aydınoğlu Umur Bey'in donanması Papa'nın kurduğu Lig müttefikleri donanması tarafından İzmir'de yakılmış ve İzmir Papalık Devleti müttefiklerinin işgali altına alınmıştı.",
+            " Saruhanoğulları Beyliği asker sağlayabilecek durumdaydı; ama bu kuvvetin hem Selanik hem de Sırp Kralına karşı bir askerî sefer için yeterli olmayacağı gayet açıktı. Onun için 1345'in ilk aylarında VI. İoannis Orhan Bey'le yakın ilişkiler kurmak için temaslara başlamıştır. Kendisi tarih yazarı da olan Kantakuzenos bu evlilik hakkında kitabında bir bölüm ayırmıştır. Buna göre Kantekuzanos biraz Türkçe öğrenmiş; iki hükümdar birbirleri ile yakın şahsi bağlantı kurmuşlar ve Orhan Bey'le şahsi görüşmeleri sırasında birbirinden güzel üç kızını da Orhan Bey'le tanıştırmıştır. İkinci kızı olan Theodora Hatun'u Orhan Bey ile evlendirmek için anlaşmışlardır. 1346'da Orhan Bey'i düğün yeri olan Silivri'ye (Salymbria'ya) getirmesi için 30 gemilik Bizans donanması kullanılmış ve 3 gün 3 gece süren düğünden sonra aynı filo Orhan Bey'i ve maiyetini geri götürmüştür. Ertesi yıl Orhan Bey yeni karısı Theodora ile bu sefer Üsküdar'da kayınbabası ile buluşmuştur.",
+            "1350'de Selanik'teki bağnaz fanatik'leri (Selanikli Zealotlar) ortadan kaldırmak için harekete geçen VI. İoannis yine damadı Orhan Bey'den Türk süvari kuvveti desteği istemiştir. 20 bin kişilik, Osmanlı süvari kuvveti ile takviyeli, Bizans kuvvetleri ile VI. İoannis'un oğlu olan Matheos Kantakuzinos komutası altında Selanik'e doğru ilerlerken Orhan Bey'in askerlerinin Anadolu'ya geri gitmeleri gerekmiş ve bu askerlerin gitmesi ile gücü çok azalan Matheos'un şansı yaver gidip Selanik yakınlarında bir Türk asıllı korsan filosu bularak bunları paralı olarak tutup Selanik'e girmeyi başarmıştır.",
+            "1352'de VI. İoannis'un ortak imparator olan V. İoannis ile arası açılmış ve V. İoannis, Edirne'de hüküm süren Matheos'a Sırplar yardımı ile hücum edip şehrin idaresini eline almıştır. Buna karşılık Konstantinopolis bulunan VI. İoannis damadı Orhan Bey'den askerî destek istemiştir. Orhan Bey bunun üzerine komutanlığını oğlu olan Süleyman Paşa'nın yaptığı bir büyük Osmanlı birliğini VI. İoannis emrine girmek üzere göndermiştir. Bu Osmanlı birliği ile takviyeli Bizans ordusu Bizans İmparatoru VI. İoannis başkomutanlığı altında Edirne'ye yürüyüp bu şehri kurtarmıştır. Aynı Osmanlı birliği birkaç ay sonra bir karışık Sırp-Bulgar ordusunu, donmuş olan Meriç Nehri kıyılarında yenik düşürüp imha etmiştir.",
+            "Bazı Türk tarihlerine göre bu başarının sonucu olarak 1353'te Çimpe Kalesi Süleyman Paşa'ya bir askerî üs olarak verilmiştir. Süleyman Paşa buraya ve civarına askerlerinin ailelerini ve göçmen Türkmenleri yerleştirmeye başlamıştır ve bu kale Osmanlıların Avrupa'ya bir köprübaşı noktası olmuştur. Bunu önlemeye çalışan İmparator VI. İoannis, Çimpe kalesini geri almak için 10 bin altın tazminat vermeyi teklif etmiş ve bunu müzakere etmek için Orhan Bey'le şahsen görüşmek istemiştir. Fakat yaşlılığını ve hastalığını ileri süren Orhan Bey bu görüşmeyi kabul etmemiştir.",
+            "Bir başka açıklamaya göre ise 2 Mart 1354'te bütün Trakya büyük bir deprem geçirmiş ve bu afetin hemen arkasından gelen kar tipi fırtınaları ve şiddetli yağmur afetleri hayatı daha da fenalaştırmıştır. Bu afetten önce büyük bir Bizans şehri olan Gelibolu taş taşın üzerinde kalmayacak kadar zarar görmüş ve tüm halkı tarafından denizden terk edilmiştir. Biga'da bu haberi alan Süleyman Paşa, bir anlatıma göre zaten kendine üs verilen Çimpe'ye gitmek üzere hazır bulunmaktaydı. Diğer bir anlatıma göre, Süleyman Paşa, daha önceki yardım seferinde Rumeli topraklarının zenginliğini görmüştü ve Rumeli'ye geçmek için bir böyle bir fırsat kollamaktaydı.",
+            "Her nedenle olursa olsun, Süleyman Paşa ve ordusu ile Çanakkale Boğazı'nı geçip ve birlikte getirilen Türkmen göçmenleri bomboş olan Gelibolu'ya yerleştirmiştir. Birkaç ay içinde şehirdeki binalar yaşanacak şekilde onarılıp ve şehrin surları yeniden inşa edilmiş ve Gelibolu nüfusunun hepsi Türk olan bir müslüman şehrine dönüştürülmüştür. Bizans imparatoru resmen Süleyman Paşa'dan Gelibolu'dan orada yerleştirdiği bütün Türkmenlerle birlikte çekilmesini istemiştir. Ancak Süleyman Paşa yanıt olarak buraya Türklerin Allah'ın niyeti ile geldiklerini; geldiklerinde şehrin terkedilmiş olduğunu; burada oturan hiçbir kimsenin evinden zorla atılmadığını ve bu şehri terketmenin Allah'ın inayetini reddetme olacağını bildirmiştir. İmparator bu şehrin boşaltılması masraflarını karşılayacağını ve üstüne tazminat vereceğini bildirdiyse de Süleyman Paşa'yı fikrinden caydıramamıştır. İmparator bu sefer damadı Orhan Bey'e de durumu şikayet etmiştir; Orhan Bey İmparatorla İzmit'te görüşebileceğini bildirmiş ise de görüşmeye hastalık bahanesine gitmemiştir. Bunu bir felaket olarak kabul eden İmparator büyük bir yeise kapılmıştır.",
+            "Bu sorun daha bir hal yoluna konulmadan Kantakuzenos, ortak imparator olan V. İoannis'le açık mücadeleye girişmiş; önce damadı V. İoannis'u ortak imparatorluktan atıp; Bozcaada'ya (Tenedos'a) sürgüne göndermiştir. Ama oradan Venedikliler yardımıyla Bozcaada'dan kaçan V. İoannis İstanbul'a gelip Konstantinopolis'te idareyi yeniden eline almıştır. V. İoannis ile kayınpederi VI. İoannis anlaşma yapıp birlikte imparatorluk yapmayı kabul etmişlerdir. Fakat, büyük bir depresyon içinde bulunan VI. İoannis birkaç gün sonra, 4 Aralık 1354'te kendi isteği ile tahtından feragat etmiş; bir manastıra keşiş olarak girmiştir. Böylece Osmanlıların Rumeli'ye geçmeleri bir emrivaki olarak kalmış, ama Orhan Bey'in kayınbabası iktidardan ayrılmıştır.",
+            "Masallaşmış bir açıklamaya göre ise Süleyman Paşa ve ufak ordusu Rumeli'ye salla geçiş yapmış ve orada ilk yerleşkiyi kurmuşlardır.Her ne şekilde geçiş ve köprübaşı kurulmuş olursa olsun, Osmanlılar Trakya'da Bizans şehirlerini birer birer zaptetmeye başlamışlardır. Çimpe Kalesi ve Gelibolu kale ve şehrinden başlayarak Bolayır, Keşan ve Rodoscuk (Tekirdağ) 1354'te fethedilmiştir. Bunun yanında fethedilen toprakları korumak amacıyla Rumeli'de geniş bir iskan politikası uygulanmış ve Anadolu'dan Trakya'ya Türkler getirilip yeni fethedilen yerleşkelere iskan edilmişlerdir. Ayrıca, zaten Trakya topraklarında bulunan Türkler, Aydınoğulları ve Saruhanoğulları orduları kalıntıları da Osmanlılara katılmışlardır. 1356'da Osmanlılar Çorlu'ya kadar ilerlemişlerdir.",
+            "Rumeli'deki Osmanlı toprakları üzerinde beylerbeylik görevi yapan Süleyman Paşa, Çorlu civarında bir sürek avı sırasında atından düşerek ölmüştür (1357). Süleyman Paşa'nın ölümü ile; 1359-1362 arasında Orhan Bey'in oğlu ve velîahtı Murad Bey Rumeli'de Osmanlı ordularına komutaya başlamıştır. Osmanlılar 1361'de Dimetoka ve Edirne'yi ellerine geçirmişlerdir. Mart 1362'de ise Orhan Bey vefat etmiş ve yerine oğlu Murad geçmiştir."
+          ]
+        },
+        {
+          "id": 4,
+          "contentHeader": "Yenilikleri ve düzenlemeleri",
+          "panelId": "yenilikleriveduzenlemeleri",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/OrhanBeySikkesi.jpg",
+          "imgDesc": "Orhan Gazi döneminde basılmış gümüş sikke.",
+          "contentMain": [
+            "Devlet alanında: Orhan Bey Osmanlı Beyliği'ni yeni yasalar ve düzenlemeler sayesinde devlet yapmıştır. İlk kez vezir ataması bu dönemde yapılmıştır. İlk kadı ve subaşı atamaları bu dönemde yapılmıştır. Sancaklara kadılar gönderilmiştir. Divan Örgütü kurulmuştur. Vakıf sistemi, adli teşkilat kurulmuştur.",
+            "Askerlik alanında: Yaya ve müsellem olarak ilk düzenli Osmanlı ordusu kurulmuştur. İlk donanma çalışmaları yapılmıştır ve Osmanlı Devleti gücüne güç katmıştır.",
+            "Ticaret ve Ekonomi Alanında: Orhan Gazi, babası Osman Gazi'nin 699/1300 yılı civarında Eskişehir'de çıkardığı ilk Bac kanunundan sonra, Bursa'da Osmanlılar'ın en eski ticarî kanunu olan 21 maddelik ilk İhtisab Kanunnamesini çıkarmıştır.[24] Sonraki İhtisab kanunnamelerinde yer alan bazı maddelerin nüvesini de içeren bu küçük kanunnamede, Bursa'daki ehl-i hirfet ve dükkânların ödeyeceği Bac miktarlarını belirleyen maddelerin yanı sıra, ilk defa şarap satıcıları, kalaycılar ve hamam işletmecilerinin işletim ve üretim standardını tespite yönelik birtakım kriterlere de yer verilmiştir.[25] Kanunnamede genel çerçevede Osman Gazi'nin Bac kanununda belirlediği 2 akça bac bedeli korunmuş; \"kilinder\", \"lidre\" (libre) gibi ölçü birimlerinin o dönemdeki varlığı ve Orhan Bey zamanında Bursa'daki esnafın hangi sınıflardan ibaret olduğu da önemli birer tarihî veri olarak ortaya konulmuştur."
+          ]
+        },
+        {
+          "id": 5,
+          "contentHeader": "Kişiliği ve Fiziki Yapısı",
+          "panelId": "kisiligivefizikiyapisi",
+          "imgUrl": "",
+          "imgDesc": "",
+          "contentMain": [
+            "Orhan Gazi; mavi gözlü, sarışın, beyaz tenli, geniş göğüslü, iri yapılı bir insandı. Kulağında siyah bir beni vardı. Sık sık halkın arasına karışıp onların dertlerini dinlerdi. Davranışları dengeli ve kararlıydı. Daima tedbirli davranırdı. İyi ahlâklı olarak bilinirdi."
+          ]
+        },
+        {
+          "id": 6,
+          "contentHeader": "Son Yılları ve Ölümü",
+          "panelId": "sonyillariveolumu",
+          "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/T%C3%BCrbe_of_Orhan_Gazi%2C_Bursa.jpg/350px-T%C3%BCrbe_of_Orhan_Gazi%2C_Bursa.jpg",
+          "imgDesc": "Orhan Bey'in Bursa'daki Gümüşlü Kümbet'de türbesi",
+          "contentMain": [
+            "Orhan Gazi, son yıllarında Osmanlı Devleti'nin idaresini, oğlu şehzade Murat‘a bırakarak hayatını Bursa'da geçirmiştir.Ölüm nedeni ve yılı hakkında tarihçiler arasında ihtilaf bulunmaktadır. ",
+            "Zamanının tarihçisi olan Âşıkpaşazâde, Orhan Bey'in Süleyman Bey'le aynı yılda, 1358'de, öldüğünü yazmaktadır.[28] Bazı tarihçiler 1360 yılında 79 yaşındayken öldüğünü bildirirler ve diğerleri ise ölümünün 1362'de olduğunu belirtir.Orhan Bey, Bursa'da, Gümüşlü Kümbet'de babasının türbesine gömülmüştür."
+          ]
+        },
+        {
+          "id": 7,
+          "contentHeader": "Kaynakçalar",
+          "panelId": "kaynakcalar",
+          "imgUrl": "",
+          "imgDesc": "",
+          "contentMain": [
+            "https://tr.wikipedia.org/wiki/Orhan_Gazi#Ki%C5%9Fili%C4%9Fi_ve_fiziki_yap%C4%B1s%C4%B1"
+          ]
+        }
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Orhan_Gazi.jpg",
+      "photos": [
+        "https://upload.wikimedia.org/wikipedia/commons/d/d7/Orhan_Gazi.jpg"
+      ],
+      "signature": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Tughra_of_Orhan.svg/125px-Tughra_of_Orhan.svg.png",
+      "wikipedia": "https://tr.wikipedia.org/wiki/Orhan_Gazi#Ki%C5%9Fili%C4%9Fi_ve_fiziki_yap%C4%B1s%C4%B1"
+    },
+    {
+      "id": 3,
+      "name": "[GEÇERSİZ]",
+      "age": 63,
+      "date": "(1326 - 1389)",
+      "heading": "I. Murad",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [],
+      "cardDescriptions": [
+        {}
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Murat_H%C3%BCdavendigar.jpg",
+      "wikipedia": "https://tr.wikipedia.org/wiki/I._Murad"
+    },
+    {
+      "id": 4,
+      "name": "[GEÇERSİZ]",
+      "age": 42,
+      "date": "(1360 - 1402)",
+      "heading": "I. Bayezid",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [],
+      "cardDescriptions": [
+        {}
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Baiazeth._P._IIII.jpg/800px-Baiazeth._P._IIII.jpg",
+      "wikipedia": "https://tr.wikipedia.org/wiki/I._Bayezid"
+    },
+    {
+      "id": 5,
+      "name": "[GEÇERSİZ]",
+      "age": 32,
+      "date": "(1389 - 1421)",
+      "heading": "I. Mehmed",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [],
+      "cardDescriptions": [
+        {}
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/c/ce/II._Murat.jpg",
+      "wikipedia": "https://tr.wikipedia.org/wiki/I._Mehmed"
+    },
+    {
+      "id": 6,
+      "name": "[GEÇERSİZ]",
+      "age": 49,
+      "date": "(1402 - 1451)",
+      "heading": "II. Murad",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [],
+      "cardDescriptions": [
+        {}
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/c/ce/II._Murat.jpg",
+      "wikipedia": "https://tr.wikipedia.org/wiki/II._Murad"
+    },
+    {
+      "id": 7,
+      "name": "[GEÇERSİZ]",
+      "age": 64,
+      "date": "(1448 - 1512)",
+      "heading": "II. Bayezid",
+      "country": "Osmanlı İmparatorluğu",
+      "descriptions": [],
+      "cardDescriptions": [
+        {}
+      ],
+      "mainPhoto": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sultan_II._Bayezit.JPG",
+      "wikipedia": "https://tr.wikipedia.org/wiki/II._Bayezid"
+    }
+  ],
+  "photos": [
+    {
+      "id": 2,
+      "cityId": 2,
+      "dateAdded": "0000-00-00",
+      "description": "",
+      "isMain": false,
+      "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iihRXMchUj2U/v1/-1x-1.jpg",
+      "publicId": ""
+    },
+    {
+      "id": 3,
+      "cityId": 1,
+      "dateAdded": "0000-00-00",
+      "description": "",
+      "isMain": true,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/YDA-Center-03.jpg",
+      "publicId": ""
+    },
+    {
+      "id": 4,
+      "cityId": 1,
+      "dateAdded": "0000-00-00",
+      "description": "",
+      "isMain": false,
+      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fd/6f/ankara.jpg?w=700&h=500&s=1",
+      "publicId": ""
+    }
+  ]
+}
