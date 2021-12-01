@@ -9,15 +9,15 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a data-bs-toggle="collapse" data-bs-target="#navbarColor01" (click)="reset()" routerLink="city" routerLinkActive="active" class="nav-link active" href="#">Şehirler
+                    <a (click)="reset()" routerLink="city" routerLinkActive="active" class="nav-link active" href="#">Şehirler
                         <span class="visually-hidden">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a data-bs-toggle="collapse" data-bs-target="#navbarColor01" (click)="reset()" routerLink="/person" routerLinkActive="active" class="nav-link" href="#">Kişiler</a>
+                    <a (click)="reset()" routerLink="/person" routerLinkActive="active" class="nav-link" href="#">Kişiler</a>
                 </li>
                 <li class="nav-item">
-                    <a data-bs-toggle="collapse" data-bs-target="#navbarColor01" (click)="reset()" routerLink="/about" routerLinkActive="active" class="nav-link" href="#">Hakkımda</a>
+                    <a (click)="reset()" routerLink="/about" routerLinkActive="active" class="nav-link" href="#">Hakkımda</a>
                 </li>                
             </ul>
             <form [formGroup]="form1" class="d-flex align-items-center">                

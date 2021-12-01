@@ -43,7 +43,7 @@ import { PersonFilterPipe } from './person/person-filter.pipe';
 
 @NgModule({
   declarations: [AppComponent, ValueComponent, NavComponent, CityComponent,CityDetailComponent, RightBannerComponent, CityDetailPlaceComponent, FooterComponent, Footer2Component, Footer3Component, AboutComponent, FilterPipe, PersonComponent, PersonDetailComponent, PersonFilterPipe],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, NgbModule, ReactiveFormsModule, BrowserAnimationsModule,ToastrModule.forRoot(),TooltipModule,MatCardModule,MatButtonModule,MatProgressBarModule,MatDividerModule,MatTabsModule,MatTableModule,MatPaginatorModule,Ng2SearchPipeModule,OrderModule,NgxPaginationModule,MatStepperModule,MatFormFieldModule,MatInputModule,Ng2CompleterModule,FormsModule],
+  imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule, HttpClientModule, NgbModule, ReactiveFormsModule, BrowserAnimationsModule,ToastrModule.forRoot(),TooltipModule,MatCardModule,MatButtonModule,MatProgressBarModule,MatDividerModule,MatTabsModule,MatTableModule,MatPaginatorModule,Ng2SearchPipeModule,OrderModule,NgxPaginationModule,MatStepperModule,MatFormFieldModule,MatInputModule,Ng2CompleterModule,FormsModule],
   exports: [FooterComponent],
   providers: [FormService],
   bootstrap: [AppComponent],

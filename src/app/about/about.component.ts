@@ -30,6 +30,7 @@ import { ToastService } from '../services/toast.service';
   ],
 })
 export class AboutComponent implements OnInit, AfterViewInit {
+  
   skills: Skill[] = [];
   certificates: Certificate[] = [];
   constructor(

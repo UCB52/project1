@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { City } from '../models/city';
 import { CityService } from '../services/city.service';
 import { DataService } from '../services/data.service';
@@ -12,7 +13,8 @@ import { DataService } from '../services/data.service';
 export class CityComponent implements OnInit {
   constructor(
     private cityService: CityService,
-    private dataService: DataService
+    private dataService: DataService,
+    private title:Title
   ) {}
   filterText!: string;
   ngOnInit(): void {
@@ -22,6 +24,7 @@ export class CityComponent implements OnInit {
     this.dataService.currentMessage.subscribe((data) => {
       this.filterText = data;
     });
+    this.title.setTitle('City Guide');
   }
   cities: City[] = [];  
 }

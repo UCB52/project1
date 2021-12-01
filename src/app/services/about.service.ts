@@ -7,7 +7,7 @@ import { Skill } from '../models/skill';
 
 @Injectable()
 export class AboutService {
-
+ 
   constructor(private http:HttpClient) { }
   getSkill():Observable<Skill[]>{
     return this.http.get<Skill[]>("http://localhost:3000/skills").pipe(

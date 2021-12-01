@@ -1,0 +1,721 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>sehir-rehberi-spa documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">sehir-rehberi-spa documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  Footer2Component</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/footer2/footer2.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+            <tr>
+                <td class="col-md-3">encapsulation</td>
+                <td class="col-md-9"><code>ViewEncapsulation.None</code></td>
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">providers</td>
+                <td class="col-md-9">
+                            <code>NgbModalConfig</code>
+                            <code>NgbModal</code>
+                                <code><a href="../injectables/ToastService.html" target="_self" >ToastService</a></code>
+                                <code><a href="../injectables/ModalService.html" target="_self" >ModalService</a></code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-footer2</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./footer2.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./footer2.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#autohide" >autohide</a>
+                            </li>
+                            <li>
+                                <a href="#show" >show</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#goNav" >goNav</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#open" >open</a>
+                            </li>
+                            <li>
+                                <a href="#toast1" >toast1</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(ngbModalConfig: NgbModalConfig, ngbModal: NgbModal, toastService: <a href="../injectables/ToastService.html" target="_self">ToastService</a>, modalService: <a href="../injectables/ModalService.html" target="_self">ModalService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/footer2/footer2.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>ngbModalConfig</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgbModalConfig</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>ngbModal</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgbModal</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>toastService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ToastService.html" target="_self" >ToastService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>modalService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/ModalService.html" target="_self" >ModalService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="goNav"></a>
+                    <span class="name">
+                        <span ><b>goNav</b></span>
+                        <a href="#goNav"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>goNav()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="20"
+                            class="link-to-prism">src/app/footer2/footer2.component.ts:20</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="17"
+                            class="link-to-prism">src/app/footer2/footer2.component.ts:17</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="open"></a>
+                    <span class="name">
+                        <span ><b>open</b></span>
+                        <a href="#open"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>open(content1: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="24"
+                            class="link-to-prism">src/app/footer2/footer2.component.ts:24</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>content1</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toast1"></a>
+                    <span class="name">
+                        <span ><b>toast1</b></span>
+                        <a href="#toast1"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>toast1()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="31"
+                            class="link-to-prism">src/app/footer2/footer2.component.ts:31</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="autohide"></a>
+                    <span class="name">
+                        <span ><b>autohide</b></span>
+                        <a href="#autohide"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>true</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/footer2/footer2.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="show"></a>
+                    <span class="name">
+                        <span ><b>show</b></span>
+                        <a href="#show"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/footer2/footer2.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, ViewEncapsulation } from &#x27;@angular/core&#x27;;
+import { NgbModal, NgbModalConfig } from &#x27;@ng-bootstrap/ng-bootstrap&#x27;;
+import { ModalService } from &#x27;../services/modal.service&#x27;;
+import { ToastService } from &#x27;../services/toast.service&#x27;;
+
+@Component({
+  selector: &#x27;app-footer2&#x27;,
+  templateUrl: &#x27;./footer2.component.html&#x27;,
+  encapsulation: ViewEncapsulation.None,
+  styleUrls: [&#x27;./footer2.component.css&#x27;],
+  providers: [NgbModalConfig,NgbModal,ToastService,ModalService]
+})
+export class Footer2Component implements OnInit {
+
+  constructor(private ngbModalConfig:NgbModalConfig, private ngbModal:NgbModal,private toastService:ToastService, private modalService:ModalService) { }
+
+  ngOnInit(): void {
+    
+  }
+  goNav(){
+    document.getElementById(&#x27;nav1&#x27;)?.scrollIntoView();
+  }
+  //Modals
+  open(content1:any){
+    this.modalService.getModal(content1);
+  }
+  show&#x3D;false;
+  autohide&#x3D;true;
+  //Modals
+  //Toast
+  toast1(){
+    this.toastService.showCustomSuccess(&quot;Bana güvendiğiniz için!&quot;,&quot;Teşekkürler&quot;);
+  }
+  //Toast
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container h-100&quot;&gt;
+    &lt;div class&#x3D;&quot;row h-25 text-center d-flex align-items-end&quot;&gt;
+        &lt;h5&gt;UCB~Project&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;row row-cols-auto h-75 d-flex justify-content-around align-items-center text-center&quot;&gt;  
+        &lt;div class&#x3D;&quot;col&quot;&gt;
+            &lt;a (click)&#x3D;&quot;goNav()&quot; routerLink&#x3D;&quot;/city&quot; class&#x3D;&quot;nav-link p-0 text-muted&quot;&gt;Anasayfa&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col&quot;&gt;
+            &lt;a (click)&#x3D;&quot;goNav()&quot; routerLink&#x3D;&quot;/about&quot; class&#x3D;&quot;nav-link p-0 text-muted&quot;&gt;Hakkımda&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class&#x3D;&quot;col&quot;&gt;
+            &lt;a (click)&#x3D;&quot;open(content1)&quot; href&#x3D;&quot;javascript:void(0)&quot; class&#x3D;&quot;nav-link p-0 text-muted&quot;&gt;Yasal ve Gizlilik&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;    
+&lt;/div&gt;
+&lt;!--Modal--&gt;
+&lt;ng-template #content1 let-c&#x3D;&quot;close&quot; let-d&#x3D;&quot;dismiss&quot;&gt;
+    &lt;div class&#x3D;&quot;modal-header bg-primary pb-0&quot;&gt;
+      &lt;h3 class&#x3D;&quot;modal-title ml-auto&quot; id&#x3D;&quot;modal-basic-title&quot;&gt;Önemli Maddeler:&lt;/h3&gt;
+      &lt;button type&#x3D;&quot;button&quot; class&#x3D;&quot;close&quot; aria-label&#x3D;&quot;Close&quot; (click)&#x3D;&quot;d(&#x27;Cross click&#x27;)&quot;&gt;
+        &lt;span aria-hidden&#x3D;&quot;true&quot;&gt;&amp;times;&lt;/span&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;modal-body&quot;&gt;
+      &lt;h3&gt;VERİ SORUMLUSU&lt;/h3&gt;
+      &lt;p&gt;Veri Sorumlusu sıfatıyla hareket eden Şirket, KVKK&#x27;nın izin verdiği ölçüde ve ticari veya iş ilişkilerimiz kapsamında, açık rızanın teminin gerektiği hallerde ise İlgili Kişi’nin rızasına da başvurarak kişisel verilerinizi işleyebilmekte, kaydedebilmekte, muhafaza edebilmekte, yeniden düzenleyebilmekte, yurtiçi veya yurtdışına aktarım sağlayabilmektedir.&lt;/p&gt;
+      &lt;h3&gt; KİŞİSEL VERİ TOPLAMA YÖNTEMLERİ VE HUKUKİ DAYANAĞI&lt;/h3&gt;
+      &lt;p&gt;Kişisel verileri, bizlere sağladığınız için, üçüncü kişiler o verileri bize sağladığı için toplayabilir veya edinebiliriz (örneğin müşterilerimiz bize çalışanları, müşterileri veya kişisel verisini topladıkları diğer İlgili Kişilerle ilgili, İlgili Kişi&#x27;nin diğer referanslarıyla ilgili bilgi verebilir, kamu kurumları veya sözleşmesel yükümlülüklerimizi yerine getirmek için destek aldığımız üçüncü taraf servis sağlayıcılar vs. bu verileri sağlayabilir); veya bizim Wi-Fi ağımıza bağlandığınız için, internet sitemiz ya da sosyal medya hesaplarımız kanalından, ya da kamuya açık olduğu için toplayabilir veya edinebiliriz.Yasal gerekliliklerin yerine getirilmesi, sözleşmeden doğan yükümlülüklerimizin ifası, Şirketimizin meşru menfaatleri nedeniyle, sizlerden talep ettiğimiz veya doğrudan sizlerin bizler ile paylaşmayı tercih ettiğinizi kişisel verilerinizi, otomatik veya otomatik olmayan yöntemler ve kaynaklar ile toplayabilir ve yine yasal olan süreler ile saklayabiliriz:&lt;/p&gt;      
+      &lt;h3&gt;İŞLENEN KİŞİSEL VERİLER&lt;/h3&gt;
+      &lt;p&gt;Şirketimiz tarafından toplanan ve işlenen kişisel veriler, sizin Şirketimizle olan ticari ve hukuki ilişki uyarınca değişkenlik gösterebilecektir.Bununla beraber örnek olarak aşağıdaki veri kategorizasyonunu belirtebiliriz: kimlik bilgileriniz, iletişim bilgileriniz, finansal bilgileriniz, özel nitelikli kişisel veriler, eğitim ve görsel veriler, aile yakınlarınızın verileri gibi kişisel verileriniz tarafımızca işlenmelerini gerektiren amaç çerçevesinde ve bu amaç ile bağlantılı, sınırlı, ölçülü ve gerektiğinde güncel olacak şekilde ve 6698 Sayılı Kanun’un 5 inci ve 6 ncı maddelerinde belirtilen şartlara uygun olarak işlenebilmektedir.&lt;/p&gt;
+      &lt;h3&gt;KİŞİSEL VERİLERİN İŞLENME AMAÇLARI&lt;/h3&gt;
+      &lt;P&gt;Şirket, kişisel verileri yasal sürelere bağlı kalarak aşağıdaki amaçlar için işleyebilir:&lt;/P&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;modal-footer &quot;&gt;
+        &lt;div class&#x3D;&quot;container-xxl d-flex justify-content-between &quot;&gt;
+            &lt;button (click)&#x3D;&quot;toast1()&quot; class&#x3D;&quot;btn btn-sm rounded-3 btn-outline-primary&quot; (click)&#x3D;&quot;c(&#x27;Save click&#x27;)&quot;&gt;Okudum,anladım,kabul ediyorum.&lt;/button&gt;
+      &lt;button class&#x3D;&quot;btn btn-sm rounded-3 btn-outline-danger&quot; (click)&#x3D;&quot;c(&#x27;Save click&#x27;)&quot;&gt;Kabul etmiyorum.&lt;/button&gt;
+        &lt;/div&gt;      
+    &lt;/div&gt;
+  &lt;/ng-template&gt;
+  &lt;!--Modal--&gt;</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./footer2.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container h-100">    <div class="row h-25 text-center d-flex align-items-end">        <h5>UCB~Project</h5>    </div>    <div class="row row-cols-auto h-75 d-flex justify-content-around align-items-center text-center">          <div class="col">            <a (click)="goNav()" routerLink="/city" class="nav-link p-0 text-muted">Anasayfa</a>        </div>        <div class="col">            <a (click)="goNav()" routerLink="/about" class="nav-link p-0 text-muted">Hakkımda</a>        </div>        <div class="col">            <a (click)="open(content1)" href="javascript:void(0)" class="nav-link p-0 text-muted">Yasal ve Gizlilik</a>        </div>    </div>    </div><!--Modal--><ng-template #content1 let-c="close" let-d="dismiss">    <div class="modal-header bg-primary pb-0">      <h3 class="modal-title ml-auto" id="modal-basic-title">Önemli Maddeler:</h3>      <button type="button" class="close" aria-label="Close" (click)="d(\'Cross click\')">        <span aria-hidden="true">&times;</span>      </button>    </div>    <div class="modal-body">      <h3>VERİ SORUMLUSU</h3>      <p>Veri Sorumlusu sıfatıyla hareket eden Şirket, KVKK\'nın izin verdiği ölçüde ve ticari veya iş ilişkilerimiz kapsamında, açık rızanın teminin gerektiği hallerde ise İlgili Kişi’nin rızasına da başvurarak kişisel verilerinizi işleyebilmekte, kaydedebilmekte, muhafaza edebilmekte, yeniden düzenleyebilmekte, yurtiçi veya yurtdışına aktarım sağlayabilmektedir.</p>      <h3> KİŞİSEL VERİ TOPLAMA YÖNTEMLERİ VE HUKUKİ DAYANAĞI</h3>      <p>Kişisel verileri, bizlere sağladığınız için, üçüncü kişiler o verileri bize sağladığı için toplayabilir veya edinebiliriz (örneğin müşterilerimiz bize çalışanları, müşterileri veya kişisel verisini topladıkları diğer İlgili Kişilerle ilgili, İlgili Kişi\'nin diğer referanslarıyla ilgili bilgi verebilir, kamu kurumları veya sözleşmesel yükümlülüklerimizi yerine getirmek için destek aldığımız üçüncü taraf servis sağlayıcılar vs. bu verileri sağlayabilir); veya bizim Wi-Fi ağımıza bağlandığınız için, internet sitemiz ya da sosyal medya hesaplarımız kanalından, ya da kamuya açık olduğu için toplayabilir veya edinebiliriz.Yasal gerekliliklerin yerine getirilmesi, sözleşmeden doğan yükümlülüklerimizin ifası, Şirketimizin meşru menfaatleri nedeniyle, sizlerden talep ettiğimiz veya doğrudan sizlerin bizler ile paylaşmayı tercih ettiğinizi kişisel verilerinizi, otomatik veya otomatik olmayan yöntemler ve kaynaklar ile toplayabilir ve yine yasal olan süreler ile saklayabiliriz:</p>            <h3>İŞLENEN KİŞİSEL VERİLER</h3>      <p>Şirketimiz tarafından toplanan ve işlenen kişisel veriler, sizin Şirketimizle olan ticari ve hukuki ilişki uyarınca değişkenlik gösterebilecektir.Bununla beraber örnek olarak aşağıdaki veri kategorizasyonunu belirtebiliriz: kimlik bilgileriniz, iletişim bilgileriniz, finansal bilgileriniz, özel nitelikli kişisel veriler, eğitim ve görsel veriler, aile yakınlarınızın verileri gibi kişisel verileriniz tarafımızca işlenmelerini gerektiren amaç çerçevesinde ve bu amaç ile bağlantılı, sınırlı, ölçülü ve gerektiğinde güncel olacak şekilde ve 6698 Sayılı Kanun’un 5 inci ve 6 ncı maddelerinde belirtilen şartlara uygun olarak işlenebilmektedir.</p>      <h3>KİŞİSEL VERİLERİN İŞLENME AMAÇLARI</h3>      <P>Şirket, kişisel verileri yasal sürelere bağlı kalarak aşağıdaki amaçlar için işleyebilir:</P>    </div>    <div class="modal-footer ">        <div class="container-xxl d-flex justify-content-between ">            <button (click)="toast1()" class="btn btn-sm rounded-3 btn-outline-primary" (click)="c(\'Save click\')">Okudum,anladım,kabul ediyorum.</button>      <button class="btn btn-sm rounded-3 btn-outline-danger" (click)="c(\'Save click\')">Kabul etmiyorum.</button>        </div>          </div>  </ng-template>  <!--Modal--></div>'
+    var COMPONENTS = [{'name': 'AboutComponent', 'selector': 'app-about'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'CityComponent', 'selector': 'app-city'},{'name': 'CityDetailComponent', 'selector': 'app-city-detail'},{'name': 'CityDetailPlaceComponent', 'selector': 'app-city-detail-place'},{'name': 'Footer2Component', 'selector': 'app-footer2'},{'name': 'Footer3Component', 'selector': 'app-footer3'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'NavComponent', 'selector': 'app-nav'},{'name': 'PersonComponent', 'selector': 'app-person'},{'name': 'PersonDetailComponent', 'selector': 'app-person-detail'},{'name': 'RightBannerComponent', 'selector': 'app-right-banner'},{'name': 'ValueComponent', 'selector': 'app-value'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'Footer2Component'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'Footer2Component.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
